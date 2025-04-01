@@ -166,6 +166,35 @@
             margin-bottom: 20px;
         }
 
+        .shiny-footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 15px;
+            color: #2a6f62;
+            font-size: 14px;
+            font-weight: 500;
+            border-top: 1px solid #9ACBD0;
+            background: linear-gradient(to right, rgba(255, 255, 255, 0.9), rgba(154, 203, 208, 0.2), rgba(255, 255, 255, 0.9));
+            border-radius: 0 0 15px 15px;
+            animation: shimmering 3s infinite alternate;
+            transition: all 0.3s ease;
+        }
+
+        .shiny-footer:hover {
+            background: linear-gradient(to right, rgba(154, 203, 208, 0.2), rgba(255, 255, 255, 0.9), rgba(154, 203, 208, 0.2));
+            box-shadow: 0 0 10px rgba(154, 203, 208, 0.5);
+        }
+
+        @keyframes shimmering {
+            0% {
+                background-position: left;
+            }
+
+            100% {
+                background-position: right;
+            }
+        }
+
         @keyframes spin {
             0% {
                 transform: rotate(0deg);
@@ -267,6 +296,9 @@
             <iframe
                 src="https://docs.google.com/forms/d/e/1FAIpQLSdkwW_NpocBIczWo59GZW6K1JQsoSSfoD2bNqBsDt9CTH07dw/viewform?embedded=true"></iframe>
         </div>
+        <footer class="shiny-footer">
+            &copy; 2025 Lynn Miriam Weisker. All rights reserved. Master Thesis Research.
+        </footer>
     </div>
 
     <!-- Flowise Chatbot Embed Container -->
