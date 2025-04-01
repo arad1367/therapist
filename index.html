@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psychology Research Study</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="path/to/your/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        body {
+            background: url('https://raw.githubusercontent.com/arad1367/UniLi_sources/main/IMG/tim.jpg') no-repeat center center fixed;
+            background-size: cover;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 800px;
+            background-color: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            margin: 40px auto;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .section {
+            display: none;
+            opacity: 0;
+            transition: opacity 0.5s ease;
+        }
+
+        .section.active {
+            display: block;
+            opacity: 1;
+        }
+
+        h1 {
+            color: #2a6f62;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+
+        h2 {
+            color: #2a6f62;
+            margin-bottom: 15px;
+            font-size: 22px;
+        }
+
+        p {
+            color: #333;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+
+        .btn {
+            background-color: #9ACBD0;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 500;
+            transition: background-color 0.3s;
+            display: inline-block;
+            margin: 10px 5px;
+        }
+
+        .btn:hover {
+            background-color: #7fb0b5;
+        }
+
+        .btn-primary {
+            background-color: #2a6f62;
+        }
+
+        .btn-primary:hover {
+            background-color: #225a50;
+        }
+
+        .btn-secondary {
+            background-color: #9ACBD0;
+        }
+
+        .btn-secondary:hover {
+            background-color: #7fb0b5;
+        }
+
+        .center-content {
+            text-align: center;
+        }
+
+        .topic-selection {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin: 25px 0;
+        }
+
+        .topic-btn {
+            padding: 15px 30px;
+            font-size: 18px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 600px;
+            border: none;
+            margin-bottom: 20px;
+        }
+
+        /* Find this CSS rule in your style section */
+        .timer {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            /* Changed from right: 15px to left: 15px */
+            background-color: #2a6f62;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 14px;
+            display: none;
+        }
+
+        .chatbot-container {
+            width: 100%;
+            height: 550px;
+            display: none;
+        }
+
+        .loading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 40px 0;
+        }
+
+        .loading-spinner {
+            border: 5px solid #f3f3f3;
+            border-top: 5px solid #2a6f62;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin-bottom: 20px;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* Hide all Flowise elements when we're done */
+        .flowise-hidden {
+            display: none !important;
+            visibility: hidden !important;
+            opacity: 0 !important;
+            pointer-events: none !important;
+            position: absolute !important;
+            left: -9999px !important;
+            top: -9999px !important;
+            z-index: -9999 !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Psychology Research Study</h1>
+
+        <!-- Section 1: Pre-Interaction Survey -->
+        <div id="pre-survey-section" class="section active">
+            <h2>Pre-Interaction Survey</h2>
+            <p>Please complete this brief survey before proceeding with the study. Your responses will help us better
+                understand your background and preferences.</p>
+            <iframe
+                src="https://docs.google.com/forms/d/e/1FAIpQLSfXzZkAGPxkt-VtQS2pkMlfGMHrkXmz6sJGpvwhBqbcTElzqA/viewform?embedded=true"></iframe>
+            <div class="center-content">
+                <button id="pre-survey-completed-btn" class="btn btn-primary">I Completed Pre-Interaction
+                    Survey</button>
+            </div>
+        </div>
+
+        <!-- Section 2: Therapy Type Selection -->
+        <div id="therapy-selection-section" class="section">
+            <h2>Thank you for completing the survey!</h2>
+            <p>Now, please choose the type of advice that best suits you:</p>
+            <div class="center-content">
+                <button id="empathetic-btn" class="btn btn-secondary">Empathetic Advice</button>
+                <button id="rational-btn" class="btn btn-secondary">Rational Advice</button>
+            </div>
+            <p class="center-content" style="margin-top: 15px; font-style: italic;">Click the option that feels right
+                for you!</p>
+        </div>
+
+        <!-- Section 3: Redirect Message -->
+        <div id="redirect-section" class="section">
+            <div class="loading">
+                <div class="loading-spinner"></div>
+                <h2 id="redirect-message"></h2>
+                <p>Please follow the therapist's guidance and respond to their questions with openness and honesty.</p>
+                <p>Thank you for your participation!</p>
+            </div>
+        </div>
+
+        <!-- Section 4: Topic Selection -->
+        <div id="topic-selection-section" class="section">
+            <h2>Welcome to the second part of the study!</h2>
+            <p>To begin, please select the topic that feels most relevant to you:</p>
+            <div class="topic-selection">
+                <button class="btn btn-secondary topic-btn" data-topic="anxiety">Anxiety</button>
+                <button class="btn btn-secondary topic-btn" data-topic="depression">Depression</button>
+                <button class="btn btn-secondary topic-btn" data-topic="stress">Stress</button>
+            </div>
+            <p>Even if you don't struggle with these issues daily, please choose the one that you relate to the most.
+            </p>
+            <p>Once you've chosen a topic, type one of the following messages in the chat based on your choice:</p>
+            <ul style="margin-left: 30px; margin-bottom: 20px;">
+                <li>"I have been feeling anxious lately."</li>
+                <li>"I have been feeling depressed lately."</li>
+                <li>"I have been feeling stressed lately."</li>
+            </ul>
+            <p>This will help guide your conversation with the therapist. During the session, please focus on sharing
+                your own thoughts and experiences related to the topic you chose.</p>
+            <p>The conversation will last 5 minutes.</p>
+        </div>
+
+        <!-- Section 5: Chatbot Interaction -->
+        <div id="chatbot-section" class="section">
+            <div class="timer" id="chat-timer">Time remaining: 5:00</div>
+            <div class="center-content" style="margin-bottom: 15px;">
+                <button id="finish-chat-btn" class="btn btn-primary">Finish Chat</button>
+            </div>
+            <div id="chatbot-container" class="chatbot-container"></div>
+        </div>
+
+        <!-- Section 6: Post-Interaction Survey -->
+        <div id="post-survey-section" class="section">
+            <h2>Thank you for your participation!</h2>
+            <p>We appreciate your time. Please complete the post-interaction questionnaire below:</p>
+            <iframe
+                src="https://docs.google.com/forms/d/e/1FAIpQLSdkwW_NpocBIczWo59GZW6K1JQsoSSfoD2bNqBsDt9CTH07dw/viewform?embedded=true"></iframe>
+        </div>
+    </div>
+
+    <!-- Flowise Chatbot Embed Container -->
+    <div id="flowise-embed-container"></div>
+
+    <!-- JavaScript -->
+    <script>
+        // DOM Elements
+        const sections = {
+            presurvey: document.getElementById('pre-survey-section'),
+            therapySelection: document.getElementById('therapy-selection-section'),
+            redirect: document.getElementById('redirect-section'),
+            topicSelection: document.getElementById('topic-selection-section'),
+            chatbot: document.getElementById('chatbot-section'),
+            postsurvey: document.getElementById('post-survey-section')
+        };
+
+        const buttons = {
+            presurveyCompleted: document.getElementById('pre-survey-completed-btn'),
+            empathetic: document.getElementById('empathetic-btn'),
+            rational: document.getElementById('rational-btn'),
+            topics: document.querySelectorAll('.topic-btn'),
+            finishChat: document.getElementById('finish-chat-btn')
+        };
+
+        const redirectMessage = document.getElementById('redirect-message');
+        const chatbotContainer = document.getElementById('chatbot-container');
+        const chatTimer = document.getElementById('chat-timer');
+        const flowiseContainer = document.getElementById('flowise-embed-container');
+
+        // Variables
+        let selectedTherapyType = '';
+        let selectedTopic = '';
+        let isAI = false;
+        let chatflowId = '';
+        let timerInterval;
+        let remainingSeconds = 300; // 5 minutes
+        let currentChatbotScript = null;
+        let cleanupObserver = null;
+
+        // Constants - Chatbot IDs from your files
+        const CHATBOT_IDS = {
+            empathetic: "aeb5601f-b62c-4c69-9a3a-39562f272962", // From paste-2.txt
+            rational: "cf5746c8-cbab-451c-aad6-20dc84a8234e"    // From paste.txt
+        };
+
+        // Utility Functions
+        function showSection(sectionToShow) {
+            Object.values(sections).forEach(section => {
+                section.classList.remove('active');
+            });
+            sectionToShow.classList.add('active');
+            window.scrollTo(0, 0);
+        }
+
+        function randomBoolean() {
+            const randomValue = Math.random();
+            console.log("Random value generated:", randomValue);
+            return randomValue >= 0.5;
+        }
+
+        function formatTime(seconds) {
+            const mins = Math.floor(seconds / 60);
+            const secs = seconds % 60;
+            return `${mins}:${secs < 10 ? '0' : ''}${secs}`;
+        }
+
+        // Create a blocking style that prevents any Flowise elements from appearing
+        function createBlockingStyle() {
+            const style = document.createElement('style');
+            style.textContent = `
+                /* Target any elements created by Flowise */
+                body > div:not(.container):not(#flowise-embed-container),
+                body > button,
+                body > iframe,
+                [class*="flowise"],
+                [id*="flowise"],
+                [class*="chatbot"],
+                [id*="chatbot"],
+                [class*="chat-"],
+                [id*="chat-"],
+                [style*="position: fixed"],
+                [style*="z-index: 9999"],
+                [style*="bottom: 20px"],
+                [style*="right: 20px"] {
+                    display: none !important;
+                    visibility: hidden !important;
+                    opacity: 0 !important;
+                    pointer-events: none !important;
+                    position: absolute !important;
+                    z-index: -9999 !important;
+                }
+            `;
+            return style;
+        }
+
+        // Timer & Session Management
+        function startTimer() {
+            chatTimer.style.display = 'block';
+            chatTimer.textContent = `Time remaining: ${formatTime(remainingSeconds)}`;
+
+            timerInterval = setInterval(() => {
+                remainingSeconds--;
+                chatTimer.textContent = `Time remaining: ${formatTime(remainingSeconds)}`;
+
+                if (remainingSeconds <= 0) {
+                    clearInterval(timerInterval);
+                    endChatSession(true); // Show alert
+                }
+            }, 1000);
+        }
+
+        function createOverlay() {
+            // Create a full-screen overlay that sits at a high z-index
+            const overlay = document.createElement('div');
+            overlay.id = 'chat-blocker-overlay';
+            overlay.style.cssText = `
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(255, 255, 255, 0.9);
+        z-index: 100000;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Roboto', sans-serif;
+    `;
+
+            // Add a message to the overlay
+            const message = document.createElement('h2');
+            message.textContent = 'Your chat session has ended.';
+            message.style.cssText = 'color: #2a6f62; margin-bottom: 15px;';
+            overlay.appendChild(message);
+
+            const subMessage = document.createElement('p');
+            subMessage.textContent = 'Please complete the post-interaction survey below.';
+            subMessage.style.cssText = 'color: #333; font-size: 16px;';
+            overlay.appendChild(subMessage);
+
+            return overlay;
+        }
+
+        // Add this function to your JavaScript
+        function nukeFlowiseChat() {
+            console.log("EXECUTING NUCLEAR OPTION TO DESTROY FLOWISE CHAT");
+
+            // 1. Create and append a full-page blocking div with massive z-index
+            const blocker = document.createElement('div');
+            blocker.id = 'absolute-chat-blocker';
+            blocker.style.cssText = `
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: white;
+        z-index: 999999999;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: sans-serif;
+    `;
+
+            const blockerMessage = document.createElement('h2');
+            blockerMessage.textContent = 'Your chat session has ended';
+            blockerMessage.style.color = '#2a6f62';
+            blocker.appendChild(blockerMessage);
+
+            document.body.appendChild(blocker);
+
+            // 2. Destroy ALL iframes on the page - no exceptions
+            document.querySelectorAll('iframe').forEach(iframe => {
+                iframe.src = 'about:blank';
+                iframe.remove();
+            });
+
+            // 3. Remove any script tags that might be powering Flowise
+            document.querySelectorAll('script').forEach(script => {
+                // If it's one of our scripts powering the chatbot, remove it
+                if (script.src && (
+                    script.src.includes('flowise') ||
+                    script.src.includes('chatbot') ||
+                    script.src.includes('cdn.jsdelivr.net')
+                )) {
+                    script.remove();
+                }
+
+                // If it's an inline script that mentions Flowise, ChatBot, etc.
+                if (script.textContent && (
+                    script.textContent.includes('flowise') ||
+                    script.textContent.includes('Chatbot') ||
+                    script.textContent.includes('chatbot') ||
+                    script.textContent.includes('chat-')
+                )) {
+                    script.textContent = ''; // Clear the script content
+                    script.remove();
+                }
+            });
+
+            // 4. Apply super aggressive CSS
+            const nukeStyle = document.createElement('style');
+            nukeStyle.textContent = `
+        /* Hide EVERYTHING except our container and blocker */
+        body > *:not(.container):not(#absolute-chat-blocker),
+        [class*="flowise"],
+        [id*="flowise"],
+        [class*="chatbot"],
+        [id*="chatbot"],
+        [class*="chat-"],
+        [id*="chat-"],
+        [style*="position: fixed"],
+        [style*="z-index"],
+        [style*="bottom"],
+        [style*="right"],
+        iframe,
+        .chatbot-container,
+        #chatbot-container,
+        #chatbot-frame,
+        #flowise-embed-container {
+            display: none !important;
+            visibility: hidden !important;
+            opacity: 0 !important;
+            pointer-events: none !important;
+            position: absolute !important;
+            z-index: -999999 !important;
+            width: 0 !important;
+            height: 0 !important;
+            max-width: 0 !important;
+            max-height: 0 !important;
+            overflow: hidden !important;
+            border: none !important;
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+        
+        /* Make sure our blocker stays visible */
+        #absolute-chat-blocker {
+            display: flex !important;
+            visibility: visible !important;
+            opacity: 1 !important;
+            z-index: 999999999 !important;
+            width: 100vw !important;
+            height: 100vh !important;
+        }
+    `;
+            document.head.appendChild(nukeStyle);
+
+            // 5. Overwrite any global Flowise/chatbot objects
+            try {
+                window.Chatbot = null;
+                window.flowise = null;
+                window.flowiseChat = null;
+                window.flowiseChatbot = null;
+            } catch (e) {
+                console.log("Error nullifying global objects:", e);
+            }
+
+            // 6. Intercept and cancel any network requests to Flowise domains
+            try {
+                const originalFetch = window.fetch;
+                window.fetch = function (url, options) {
+                    if (typeof url === 'string' && (
+                        url.includes('flowise') ||
+                        url.includes('flowiseai') ||
+                        url.includes('chatbot') ||
+                        url.includes('chatflow')
+                    )) {
+                        console.log("Blocked fetch request to:", url);
+                        return Promise.reject(new Error('Request blocked'));
+                    }
+                    return originalFetch.apply(this, arguments);
+                };
+
+                const originalXHROpen = XMLHttpRequest.prototype.open;
+                XMLHttpRequest.prototype.open = function (method, url) {
+                    if (typeof url === 'string' && (
+                        url.includes('flowise') ||
+                        url.includes('flowiseai') ||
+                        url.includes('chatbot') ||
+                        url.includes('chatflow')
+                    )) {
+                        console.log("Blocked XHR request to:", url);
+                        this.abort();
+                        return;
+                    }
+                    return originalXHROpen.apply(this, arguments);
+                };
+            } catch (e) {
+                console.log("Error intercepting network requests:", e);
+            }
+
+            // 7. Return the blocker so we can remove it later if needed
+            return blocker;
+        }
+
+        // Replace your current endChatSession function with this:
+        function endChatSession(showAlert = true) {
+            console.log("Ending chat session with EXTREME nuclear option");
+
+            // Clear timer
+            if (timerInterval) {
+                clearInterval(timerInterval);
+                timerInterval = null;
+            }
+
+            // Show alert first
+            if (showAlert) {
+                alert("Your chat session has ended. Please complete the post-interaction survey.");
+            }
+
+            // Execute the nuclear option
+            const blocker = nukeFlowiseChat();
+
+            // Hide the chatbot section completely
+            if (sections.chatbot) {
+                sections.chatbot.style.display = 'none';
+            }
+
+            // Show post survey section
+            showSection(sections.postsurvey);
+
+            // After showing the post-survey section, remove the blocker
+            setTimeout(() => {
+                if (blocker && blocker.parentNode) {
+                    blocker.parentNode.removeChild(blocker);
+                }
+            }, 1000);
+        }
+
+        // ENTIRELY NEW APPROACH TO CLEANING UP THE CHATBOT
+        // Replace your endChatSession function with this
+        function endChatSession(showAlert = true) {
+            // Clear timer
+            if (timerInterval) {
+                clearInterval(timerInterval);
+                timerInterval = null;
+            }
+
+            // Store in sessionStorage that we need to show the post-survey section
+            sessionStorage.setItem('showPostSurvey', 'true');
+
+            // Show alert
+            if (showAlert) {
+                alert("Your chat session has ended. The page will refresh to show the post-interaction survey.");
+            }
+
+            // Refresh the page - this will completely destroy the chatbot
+            window.location.reload();
+        }
+
+        // Add this to your initialization code (right after defining all your variables)
+        // This checks if we need to show the post-survey after a refresh
+        document.addEventListener('DOMContentLoaded', function () {
+            // Check if we need to show the post-survey section
+            if (sessionStorage.getItem('showPostSurvey') === 'true') {
+                // Remove the flag from session storage
+                sessionStorage.removeItem('showPostSurvey');
+
+                // Hide all sections and show only post-survey
+                Object.values(sections).forEach(section => {
+                    section.classList.remove('active');
+                });
+                sections.postsurvey.classList.add('active');
+            }
+        });
+
+        // COMPLETELY REWRITTEN CHATBOT LOADING APPROACH
+        function loadChatbot() {
+            // First, clear any existing chatbot
+            if (currentChatbotScript) {
+                currentChatbotScript.remove();
+            }
+
+            // Make sure container is clean
+            chatbotContainer.innerHTML = '';
+            flowiseContainer.innerHTML = '';
+
+            // Set up a container to load the chatbot in
+            const chatbotFrame = document.createElement('div');
+            chatbotFrame.id = 'chatbot-frame';
+            chatbotContainer.appendChild(chatbotFrame);
+
+            // Create our chatbot script with the correct ID
+            console.log("Loading chatbot with ID:", chatflowId);
+
+            // The script must be added to document.body, not to our container
+            currentChatbotScript = document.createElement('script');
+            currentChatbotScript.type = 'module';
+            currentChatbotScript.textContent = `
+                import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+                
+                // Initialize the chatbot with the selected ID
+                Chatbot.init({
+                    chatflowid: "${chatflowId}",
+                    apiHost: "https://flowiseai-pej.onrender.com",
+                    theme: {
+                        button: {
+                            backgroundColor: '#9ACBD0',
+                            right: 20,
+                            bottom: 20,
+                            size: 48,
+                            dragAndDrop: true,
+                            iconColor: 'white',
+                            customIconSrc: 'https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/google-messages.svg',
+                            autoWindowOpen: {
+                                autoOpen: true,
+                                openDelay: 2,
+                                autoOpenOnMobile: false
+                            }
+                        },
+                        tooltip: {
+                            showTooltip: true,
+                            tooltipMessage: 'Chat with Therapist',
+                            tooltipBackgroundColor: '#9ACBD0',
+                            tooltipTextColor: 'white',
+                            tooltipFontSize: 16
+                        },
+                        customCSS: \`
+                            /* Hide "Powered by Flowise" footer */
+                            .chatbot-footer {
+                                display: none !important;
+                            }
+                            
+                            /* Fix height to prevent touching ceiling */
+                            .chatbot-chat-view {
+                                max-height: 550px !important;
+                            }
+                        \`,
+                        chatWindow: {
+                            showTitle: true,
+                            showAgentMessages: true,
+                            title: 'Therapy Chat',
+                            titleAvatarSrc: 'https://raw.githubusercontent.com/arad1367/UniLi_sources/main/IMG/phsyco.jpg',
+                            welcomeMessage: 'You can chat here with our psychotherapist whenever you are ready.',
+                            errorMessage: 'We are sorry, but an unexpected error has occurred. Please try again later.',
+                            backgroundColor: '#ffffff',
+                            backgroundImage: 'https://raw.githubusercontent.com/arad1367/UniLi_sources/main/IMG/tim.jpg',
+                            height: 550,
+                            width: 400,
+                            fontSize: 16,
+                            clearChatOnReload: false,
+                            sourceDocsTitle: 'Sources:',
+                            renderHTML: true,
+                            botMessage: {
+                                backgroundColor: '#E8F5E9',
+                                textColor: '#333333',
+                                showAvatar: true,
+                                avatarSrc: 'https://raw.githubusercontent.com/arad1367/UniLi_sources/main/IMG/psy.jpg'
+                            },
+                            userMessage: {
+                                backgroundColor: '#E0E0E0',
+                                textColor: '#333333',
+                                showAvatar: true,
+                                avatarSrc: 'https://raw.githubusercontent.com/zahidkhawaja/langchain-chat-nextjs/main/public/usericon.png'
+                            },
+                            textInput: {
+                                placeholder: 'Type your message...',
+                                backgroundColor: '#ffffff',
+                                textColor: '#303235',
+                                sendButtonColor: '#9ACBD0',
+                                maxChars: 1000,
+                                maxCharsWarningMessage: 'You exceeded the characters limit. Please input less than 500 characters.',
+                                autoFocus: true,
+                                sendMessageSound: true,
+                                sendSoundLocation: 'send_message.mp3',
+                                receiveMessageSound: true,
+                                receiveSoundLocation: 'receive_message.mp3'
+                            },
+                            feedback: {
+                                color: '#303235'
+                            },
+                            dateTimeToggle: {
+                                date: true,
+                                time: true
+                            },
+                            footer: {
+                                textColor: '#303235',
+                                text: '',
+                                company: '',
+                                companyLink: ''
+                            }
+                        }
+                    }
+                });
+                
+                // The rest of your typing indicator code can go here
+                // For now, keeping it minimal to debug primary issue
+            `;
+
+            // Append the script to the body
+            document.body.appendChild(currentChatbotScript);
+
+            // Display the chat container
+            chatbotContainer.style.display = 'block';
+        }
+
+        // FIXED FUNCTION - Therapy Selection with proper randomization and complete message
+        function handleTherapySelection() {
+            // Randomly decide if this is empathetic or rational
+            // We need to force a true random choice here by flipping a coin
+            isAI = randomBoolean();
+            console.log("Random selection:", isAI ? "Empathetic" : "Rational");
+
+            // Set message based on random selection
+            if (isAI) {
+                redirectMessage.textContent = "Great choice! You will now interact with an AI therapist and will be redirected shortly.";
+                chatflowId = CHATBOT_IDS.empathetic; // Use empathetic chatbot
+                console.log("Selected EMPATHETIC chatbot with ID:", chatflowId);
+            } else {
+                redirectMessage.textContent = "Great choice! You will now interact with a human therapist and will be redirected shortly.";
+                chatflowId = CHATBOT_IDS.rational; // Use rational chatbot
+                console.log("Selected RATIONAL chatbot with ID:", chatflowId);
+            }
+
+            showSection(sections.redirect);
+
+            // Simulate loading time before showing topic selection
+            setTimeout(() => {
+                showSection(sections.topicSelection);
+            }, 3000);
+        }
+
+        // Event Listeners
+        buttons.presurveyCompleted.addEventListener('click', () => {
+            showSection(sections.therapySelection);
+        });
+
+        buttons.empathetic.addEventListener('click', () => {
+            selectedTherapyType = 'empathetic';
+            handleTherapySelection();
+        });
+
+        buttons.rational.addEventListener('click', () => {
+            selectedTherapyType = 'rational';
+            handleTherapySelection();
+        });
+
+        buttons.topics.forEach(button => {
+            button.addEventListener('click', (e) => {
+                selectedTopic = e.target.dataset.topic;
+                showSection(sections.chatbot);
+                loadChatbot();
+                startTimer();
+            });
+        });
+
+        buttons.finishChat.addEventListener('click', () => {
+            endChatSession(true); // Show alert
+        });
+    </script>
+</body>
+
+</html>
