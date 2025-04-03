@@ -230,6 +230,13 @@
                 understand your background and preferences.</p>
             <iframe
                 src="https://docs.google.com/forms/d/e/1FAIpQLSfXzZkAGPxkt-VtQS2pkMlfGMHrkXmz6sJGpvwhBqbcTElzqA/viewform?embedded=true"></iframe>
+            <div class="center-content" style="margin-bottom: 15px;">
+                <label style="display: flex; align-items: center; justify-content: center; cursor: pointer;">
+                    <input type="checkbox" id="survey-confirmation-checkbox"
+                        style="margin-right: 10px; width: 18px; height: 18px;">
+                    <span>I confirm that I have completed the survey above</span>
+                </label>
+            </div>
             <div class="center-content">
                 <button id="pre-survey-completed-btn" class="btn btn-primary">I Completed Pre-Interaction
                     Survey</button>
@@ -323,6 +330,27 @@
             topics: document.querySelectorAll('.topic-btn'),
             finishChat: document.getElementById('finish-chat-btn')
         };
+
+        // Initially disable the button
+        buttons.presurveyCompleted.disabled = true;
+        buttons.presurveyCompleted.style.opacity = "0.6";
+        buttons.presurveyCompleted.style.cursor = "not-allowed";
+
+        // Add event listener for the checkbox
+        const surveyCheckbox = document.getElementById('survey-confirmation-checkbox');
+        surveyCheckbox.addEventListener('change', function () {
+            if (this.checked) {
+                // Enable the button when checkbox is checked
+                buttons.presurveyCompleted.disabled = false;
+                buttons.presurveyCompleted.style.opacity = "1";
+                buttons.presurveyCompleted.style.cursor = "pointer";
+            } else {
+                // Disable the button when checkbox is unchecked
+                buttons.presurveyCompleted.disabled = true;
+                buttons.presurveyCompleted.style.opacity = "0.6";
+                buttons.presurveyCompleted.style.cursor = "not-allowed";
+            }
+        });
 
         const redirectMessage = document.getElementById('redirect-message');
         const chatbotContainer = document.getElementById('chatbot-container');
@@ -740,8 +768,8 @@
                             errorMessage: 'We are sorry, but an unexpected error has occurred. Please try again later.',
                             backgroundColor: '#ffffff',
                             backgroundImage: 'https://raw.githubusercontent.com/arad1367/UniLi_sources/main/IMG/tim.jpg',
-                            height: 550,
-                            width: 400,
+                            height: 500,
+                            width: 450,
                             fontSize: 16,
                             clearChatOnReload: false,
                             sourceDocsTitle: 'Sources:',
@@ -822,7 +850,7 @@
             // Simulate loading time before showing topic selection
             setTimeout(() => {
                 showSection(sections.topicSelection);
-            }, 3000);
+            }, 10000); // increase show time to 10 seconds
         }
 
         // Event Listeners
