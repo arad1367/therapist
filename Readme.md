@@ -25,7 +25,7 @@ This web application was designed to conduct a psychology research study as part
 1. Participants complete the pre-interaction survey
 2. Participants choose between "Empathetic Advice" or "Rational Advice" (system randomly assigns actual type)
 3. Participants select a topic (anxiety, depression, or stress)
-4. Participants engage in a 5-minute chat session with the virtual therapist
+4. Participants engage in a 10-minute chat session with the virtual therapist
 5. After the session, participants complete a post-interaction survey
 
 ## Technical Details
