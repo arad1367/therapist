@@ -15,7 +15,7 @@
       rel="stylesheet"
     />
     <style>
-      /* Base Styles */
+      /* Base Styles - Pejman's preference!*/
       * {
         margin: 0;
         padding: 0;
@@ -135,12 +135,11 @@
         margin-bottom: 20px;
       }
 
-      /* Find this CSS rule in your style section */
       .timer {
         position: absolute;
         top: 15px;
         left: 15px;
-        /* Changed from right: 15px to left: 15px */
+        /* Changed from right: 15px to left: 15px - I think this is better!*/
         background-color: #2a6f62;
         color: white;
         padding: 5px 10px;
@@ -223,7 +222,7 @@
         }
       }
 
-      /* Hide all Flowise elements when we're done */
+      /* Hide all Flowise elements when we're done - Note: 03.05.2025 */
       .flowise-hidden {
         display: none !important;
         visibility: hidden !important;
@@ -244,7 +243,7 @@
       <!-- Section 1: Pre-Interaction Survey -->
       <div id="pre-survey-section" class="section active">
         <iframe
-          src="https://docs.google.com/forms/d/e/1FAIpQLSfXzZkAGPxkt-VtQS2pkMlfGMHrkXmz6sJGpvwhBqbcTElzqA/viewform?embedded=true"
+          src="https://docs.google.com/forms/d/e/1FAIpQLSdu1IzR7oM-OLIIMKFIaOnjiz6zkeNjHehCl99OTqmCUF_LAg/viewform?embedded=true"
         ></iframe>
         <div class="center-content" style="margin-bottom: 15px">
           <label
@@ -300,7 +299,7 @@
         </div>
       </div>
 
-      <!-- Section 4: Topic Selection -->
+      <!-- Section 4: Topic Selection - Updated 04.05.2025 -->
       <div id="topic-selection-section" class="section">
         <h2>Welcome to the second part of the study!</h2>
         <p>
@@ -322,18 +321,35 @@
           one that you relate to the most.
         </p>
         <p>
-          Once you've chosen a topic, type one of the following messages in the
-          chat based on your choice:
+          Once you've chosen the topic you'd like to discuss, please begin your
+          session by typing one of the following messages:
         </p>
         <ul style="margin-left: 30px; margin-bottom: 20px">
-          <li>"I have been feeling anxious lately."</li>
-          <li>"I have been feeling depressed lately."</li>
-          <li>"I have been feeling stressed lately."</li>
+          <li>
+            "My Prolific ID is [your ID here], and I've been feeling anxious
+            lately."
+          </li>
+          <li>
+            "My Prolific ID is [your ID here], and I've been feeling depressed
+            lately."
+          </li>
+          <li>
+            "My Prolific ID is [your ID here], and I've been feeling stressed
+            lately."
+          </li>
         </ul>
         <p>
-          This will help guide your conversation with the therapist. During the
-          session, please focus on sharing your own thoughts and experiences
-          related to the topic you chose.
+          <strong>Why this matters:</strong> Including your
+          <strong>Prolific ID</strong> at the beginning of the session ensures
+          that your participation is correctly recorded for research purposes.
+          It helps link your responses to the study while keeping your identity
+          anonymous.
+        </p>
+        <p>
+          During the session, focus on expressing your own thoughts, feelings,
+          and experiences related to the topic you've chosen. The more openly
+          you share, the more valuable the session will be for both you and the
+          study.
         </p>
         <p>The conversation will last 10 minutes.</p>
       </div>
@@ -347,7 +363,7 @@
       <!-- Section 6: Post-Interaction Survey -->
       <div id="post-survey-section" class="section">
         <iframe
-          src="https://docs.google.com/forms/d/e/1FAIpQLSdkwW_NpocBIczWo59GZW6K1JQsoSSfoD2bNqBsDt9CTH07dw/viewform?embedded=true"
+          src="https://prettyform.addxt.com/a/form/vf/1FAIpQLSeMFZHnFRaWgvfyKdpmnzgp0jUvSesswnYF7FCG6ZbbgTIYCw"
         ></iframe>
       </div>
       <footer class="shiny-footer">
@@ -359,7 +375,7 @@
     <!-- Flowise Chatbot Embed Container -->
     <div id="flowise-embed-container"></div>
 
-    <!-- JavaScript -->
+    <!-- JavaScript Part -- Can be customized more -->
     <script>
       // DOM Elements
       const sections = {
@@ -408,20 +424,22 @@
         "flowise-embed-container"
       );
 
-      // Variables
+      // Variables - I added handling hidden fields : Lynn please check it with Johannes
       let selectedTherapyType = "";
       let selectedTopic = "";
       let isAI = false;
       let chatflowId = "";
       let timerInterval;
-      let remainingSeconds = 600; // 10 minutes
+      let remainingSeconds = 60; // 10 minutes
       let currentChatbotScript = null;
       let cleanupObserver = null;
+      let participantAdviceStyle = ""; // Will store "empathetic" or "rational" - PrettyFormDesigner
+      let participantToldChatWith = ""; // Will store "human" or "AI" - PrettyFormDesigner
 
-      // Constants - Chatbot IDs from your files
+      // Constants - Chatbot IDs
       const CHATBOT_IDS = {
-        empathetic: "cf5746c8-cbab-451c-aad6-20dc84a8234e", // From paste-2.txt
-        rational: "aeb5601f-b62c-4c69-9a3a-39562f272962", // From paste.txt
+        empathetic: "cf5746c8-cbab-451c-aad6-20dc84a8234e",
+        rational: "aeb5601f-b62c-4c69-9a3a-39562f272962",
       };
 
       // Utility Functions
@@ -528,7 +546,6 @@
         return overlay;
       }
 
-      // Add this function to your JavaScript
       function nukeFlowiseChat() {
         console.log("EXECUTING NUCLEAR OPTION TO DESTROY FLOWISE CHAT");
 
@@ -557,7 +574,7 @@
 
         document.body.appendChild(blocker);
 
-        // 2. Destroy ALL iframes on the page - no exceptions
+        // 2. Destroy ALL iframes on the page - no exceptions 100% work :)
         document.querySelectorAll("iframe").forEach((iframe) => {
           iframe.src = "about:blank";
           iframe.remove();
@@ -565,7 +582,6 @@
 
         // 3. Remove any script tags that might be powering Flowise
         document.querySelectorAll("script").forEach((script) => {
-          // If it's one of our scripts powering the chatbot, remove it
           if (
             script.src &&
             (script.src.includes("flowise") ||
@@ -583,12 +599,12 @@
               script.textContent.includes("chatbot") ||
               script.textContent.includes("chat-"))
           ) {
-            script.textContent = ""; // Clear the script content
+            script.textContent = ""; // Clear the script content ...
             script.remove();
           }
         });
 
-        // 4. Apply super aggressive CSS
+        // 4. Apply super aggressive CSS - I checked this is work 100%
         const nukeStyle = document.createElement("style");
         nukeStyle.textContent = `
         /* Hide EVERYTHING except our container and blocker */
@@ -686,26 +702,43 @@
         return blocker;
       }
 
-      // Replace your current endChatSession function with this:
+      // endChatSession function :
       function endChatSession(showAlert = true) {
-        console.log("Ending chat session with EXTREME nuclear option");
-
         // Clear timer
         if (timerInterval) {
           clearInterval(timerInterval);
           timerInterval = null;
         }
 
-        // Show alert first
+        // Show alert
         if (showAlert) {
           alert(
             "Your chat session has ended. Please complete the post-interaction survey."
           );
         }
 
-        // Execute the nuclear option
-        const blocker = nukeFlowiseChat();
+        // Update the post-survey iframe src to include our parameters
+        const postSurveyIframe = document.querySelector(
+          "#post-survey-section iframe"
+        );
+        if (postSurveyIframe) {
+          // Get the current iframe src
+          let currentSrc = postSurveyIframe.src;
 
+          // Add our parameters with the CORRECT entry IDs - Pejman's Solution!
+          if (currentSrc.includes("?")) {
+            currentSrc += `&entry.1936250364=${encodeURIComponent(
+              participantAdviceStyle
+            )}&entry.273056075=${encodeURIComponent(participantToldChatWith)}`;
+          } else {
+            currentSrc += `?entry.1936250364=${encodeURIComponent(
+              participantAdviceStyle
+            )}&entry.273056075=${encodeURIComponent(participantToldChatWith)}`;
+          }
+
+          // Update the iframe src
+          postSurveyIframe.src = currentSrc;
+        }
         // Hide the chatbot section completely
         if (sections.chatbot) {
           sections.chatbot.style.display = "none";
@@ -723,7 +756,6 @@
       }
 
       // ENTIRELY NEW APPROACH TO CLEANING UP THE CHATBOT
-      // Replace your endChatSession function with this
       function endChatSession(showAlert = true) {
         // Clear timer
         if (timerInterval) {
@@ -731,8 +763,16 @@
           timerInterval = null;
         }
 
-        // Store in sessionStorage that we need to show the post-survey section
+        // Store our tracking data in sessionStorage
         sessionStorage.setItem("showPostSurvey", "true");
+        sessionStorage.setItem(
+          "participantAdviceStyle",
+          participantAdviceStyle
+        );
+        sessionStorage.setItem(
+          "participantToldChatWith",
+          participantToldChatWith
+        );
 
         // Show alert
         if (showAlert) {
@@ -745,13 +785,48 @@
         window.location.reload();
       }
 
-      // Add this to your initialization code (right after defining all your variables)
-      // This checks if we need to show the post-survey after a refresh
+      // initialization code
       document.addEventListener("DOMContentLoaded", function () {
         // Check if we need to show the post-survey section
         if (sessionStorage.getItem("showPostSurvey") === "true") {
-          // Remove the flag from session storage
+          // Get our tracking data
+          const storedAdviceStyle = sessionStorage.getItem(
+            "participantAdviceStyle"
+          );
+          const storedToldChatWith = sessionStorage.getItem(
+            "participantToldChatWith"
+          );
+
+          // Update our variables with stored values
+          if (storedAdviceStyle) participantAdviceStyle = storedAdviceStyle;
+          if (storedToldChatWith) participantToldChatWith = storedToldChatWith;
+
+          // Update the post-survey iframe src to include our parameters
+          const postSurveyIframe = document.querySelector(
+            "#post-survey-section iframe"
+          );
+          if (postSurveyIframe) {
+            let currentSrc = postSurveyIframe.src;
+            if (currentSrc.includes("?")) {
+              currentSrc += `&entry.1936250364=${encodeURIComponent(
+                participantAdviceStyle
+              )}&entry.273056075=${encodeURIComponent(
+                participantToldChatWith
+              )}`;
+            } else {
+              currentSrc += `?entry.1936250364=${encodeURIComponent(
+                participantAdviceStyle
+              )}&entry.273056075=${encodeURIComponent(
+                participantToldChatWith
+              )}`;
+            }
+            postSurveyIframe.src = currentSrc;
+          }
+
+          // Remove the flags from session storage
           sessionStorage.removeItem("showPostSurvey");
+          sessionStorage.removeItem("participantAdviceStyle");
+          sessionStorage.removeItem("participantToldChatWith");
 
           // Hide all sections and show only post-survey
           Object.values(sections).forEach((section) => {
@@ -768,7 +843,7 @@
           currentChatbotScript.remove();
         }
 
-        // Make sure container is clean
+        // container is clean
         chatbotContainer.innerHTML = "";
         flowiseContainer.innerHTML = "";
 
@@ -777,7 +852,7 @@
         chatbotFrame.id = "chatbot-frame";
         chatbotContainer.appendChild(chatbotFrame);
 
-        // Create our chatbot script with the correct ID
+        // Create chatbot script with the correct ID
         console.log("Loading chatbot with ID:", chatflowId);
 
         // The script must be added to document.body, not to our container
@@ -893,25 +968,45 @@
 
       // FIXED FUNCTION - Therapy Selection with proper randomization and complete message
       function handleTherapySelection() {
-        // Use the user's selection instead of random choice
+        // Store the participant's selected advice style
+        participantAdviceStyle = selectedTherapyType;
+
+        // Randomly determine if they'll be told they're chatting with AI or human
+        // This is independent of their advice style selection
+        const willTellAI = Math.random() >= 0.5; // 50% chance of getting AI (This problem is now solved!)
+        participantToldChatWith = willTellAI ? "AI" : "human";
+
+        // Always use the chatbot ID that matches their actual advice style selection - previous issue is addressed
         if (selectedTherapyType === "empathetic") {
-          redirectMessage.textContent =
-            "Great choice! You will now interact with an AI therapist and will be redirected shortly.";
-          chatflowId = CHATBOT_IDS.empathetic; // Use empathetic chatbot
+          chatflowId = CHATBOT_IDS.empathetic;
           console.log("Selected EMPATHETIC chatbot with ID:", chatflowId);
         } else if (selectedTherapyType === "rational") {
-          redirectMessage.textContent =
-            "Great choice! You will now interact with a human therapist and will be redirected shortly.";
-          chatflowId = CHATBOT_IDS.rational; // Use rational chatbot
+          chatflowId = CHATBOT_IDS.rational;
           console.log("Selected RATIONAL chatbot with ID:", chatflowId);
         }
+
+        // Now show the appropriate message based on what we're telling them (AI or human)
+        if (participantToldChatWith === "AI") {
+          redirectMessage.textContent =
+            "Great choice! You will now interact with an AI therapist and will be redirected shortly.";
+        } else {
+          redirectMessage.textContent =
+            "Great choice! You will now interact with a human therapist and will be redirected shortly.";
+        }
+
+        // Update the console with our tracking values
+        console.log("Tracking data - Advice style:", participantAdviceStyle);
+        console.log(
+          "Tracking data - Told chatting with:",
+          participantToldChatWith
+        );
 
         showSection(sections.redirect);
 
         // Simulate loading time before showing topic selection
         setTimeout(() => {
           showSection(sections.topicSelection);
-        }, 10000); // increase show time to 10 seconds
+        }, 10000);
       }
 
       // Event Listeners
