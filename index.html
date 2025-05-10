@@ -36,7 +36,7 @@
 
       .container {
         width: 90%;
-        max-width: 800px;
+        max-width: 1000px; /* Change from 800px to 1000px */
         background-color: rgba(255, 255, 255, 0.95);
         border-radius: 15px;
         padding: 30px;
@@ -133,6 +133,7 @@
         height: 600px;
         border: none;
         margin-bottom: 20px;
+        min-width: 800px;
       }
 
       .timer {
@@ -238,37 +239,41 @@
 
   <body>
     <div class="container">
-      <!-- Section 1: Pre-Interaction Survey -->
-      <div id="pre-survey-section" class="section active">
+      <!-- New Section - Section 0: Prolific ID Entry - Currently best solution to ask once and use many times -->
+      <div id="prolific-id-section" class="section active">
         <h1>Psychology Research Study</h1>
-
-        <div class="center-content" style="margin-bottom: 15px">
-          <label
+        <p>Please enter your Prolific ID:</p>
+        <div class="center-content" style="margin: 30px auto">
+          <input
+            type="text"
+            id="prolific-id-input"
+            placeholder="Your Prolific ID"
+            required
             style="
-              display: flex;
-              align-items: center;
-              justify-content: center;
-              cursor: pointer;
+              padding: 12px;
+              width: 300px;
+              font-size: 16px;
+              margin-bottom: 20px;
+              border: 1px solid #9acbd0;
+              border-radius: 5px;
             "
-          >
-            <input
-              type="checkbox"
-              id="survey-confirmation-checkbox"
-              style="margin-right: 10px; width: 18px; height: 18px"
-            />
-            <span>I confirm that I have completed the survey above</span>
-          </label>
+          />
+          <br />
+          <button id="prolific-id-btn" class="btn btn-primary">Continue</button>
         </div>
+      </div>
 
-        <div class="center-content" style="margin-bottom: 20px">
+      <!-- Section 1: Pre-Interaction Survey -->
+      <div id="pre-survey-section" class="section">
+        <h1>Psychology Research Study</h1>
+        <iframe
+          src="https://prettyform.addxt.com/a/form/vf/1FAIpQLSdu1IzR7oM-OLIIMKFIaOnjiz6zkeNjHehCl99OTqmCUF_LAg?width=700"
+        ></iframe>
+        <div class="center-content" style="margin-top: 20px">
           <button id="pre-survey-completed-btn" class="btn btn-primary">
             I Completed Pre-Interaction Survey
           </button>
         </div>
-
-        <iframe
-          src="https://docs.google.com/forms/d/e/1FAIpQLSdu1IzR7oM-OLIIMKFIaOnjiz6zkeNjHehCl99OTqmCUF_LAg/viewform?embedded=true"
-        ></iframe>
       </div>
 
       <!-- Section 2: Therapy Type Selection -->
@@ -283,9 +288,6 @@
             Rational Advice
           </button>
         </div>
-        <p class="center-content" style="margin-top: 15px; font-style: italic">
-          Click the option that feels right for you!
-        </p>
       </div>
 
       <!-- Section 3: Redirect Message -->
@@ -293,20 +295,15 @@
         <div class="loading">
           <div class="loading-spinner"></div>
           <h2 id="redirect-message"></h2>
-          <p>
-            Please follow the therapist's guidance and respond to their
-            questions with openness and honesty.
-          </p>
-          <p>Thank you for your participation!</p>
         </div>
       </div>
 
       <!-- Section 4: Topic Selection - Updated 04.05.2025 -->
       <div id="topic-selection-section" class="section">
-        <h2>Welcome to the second part of the study!</h2>
-        <p>
-          To begin, please select the topic that feels most relevant to you:
-        </p>
+        <h2>
+          Please select the topic that feels most relevant to you. The
+          conversation will last 10 minutes.
+        </h2>
         <div class="topic-selection">
           <button class="btn btn-secondary topic-btn" data-topic="anxiety">
             Anxiety
@@ -318,42 +315,6 @@
             Stress
           </button>
         </div>
-        <p>
-          Even if you don't struggle with these issues daily, please choose the
-          one that you relate to the most.
-        </p>
-        <p>
-          Once you've chosen the topic you'd like to discuss, please begin your
-          session by typing one of the following messages:
-        </p>
-        <ul style="margin-left: 30px; margin-bottom: 20px">
-          <li>
-            "My Prolific ID is [your ID here], and I've been feeling anxious
-            lately."
-          </li>
-          <li>
-            "My Prolific ID is [your ID here], and I've been feeling depressed
-            lately."
-          </li>
-          <li>
-            "My Prolific ID is [your ID here], and I've been feeling stressed
-            lately."
-          </li>
-        </ul>
-        <p>
-          <strong>Why this matters:</strong> Including your
-          <strong>Prolific ID</strong> at the beginning of the session ensures
-          that your participation is correctly recorded for research purposes.
-          It helps link your responses to the study while keeping your identity
-          anonymous.
-        </p>
-        <p>
-          During the session, focus on expressing your own thoughts, feelings,
-          and experiences related to the topic you've chosen. The more openly
-          you share, the more valuable the session will be for both you and the
-          study.
-        </p>
-        <p>The conversation will last 10 minutes.</p>
       </div>
 
       <!-- Section 5: Chatbot Interaction -->
@@ -368,19 +329,17 @@
           src="https://prettyform.addxt.com/a/form/vf/1FAIpQLSeMFZHnFRaWgvfyKdpmnzgp0jUvSesswnYF7FCG6ZbbgTIYCw"
         ></iframe>
       </div>
-      <footer class="shiny-footer">
-        &copy; 2025 Lynn Miriam Weisker. All rights reserved. Master Thesis
-        Research.
-      </footer>
+      <footer class="shiny-footer"></footer>
     </div>
 
     <!-- Flowise Chatbot Embed Container -->
     <div id="flowise-embed-container"></div>
 
-    <!-- JavaScript Part -- Can be customized more -->
+    <!-- JavaScript Part -- Can be customized more but i think that is simple and good now! -->
     <script>
       // DOM Elements
       const sections = {
+        prolificID: document.getElementById("prolific-id-section"),
         presurvey: document.getElementById("pre-survey-section"),
         therapySelection: document.getElementById("therapy-selection-section"),
         redirect: document.getElementById("redirect-section"),
@@ -390,34 +349,17 @@
       };
 
       const buttons = {
+        prolificID: document.getElementById("prolific-id-btn"),
         presurveyCompleted: document.getElementById("pre-survey-completed-btn"),
         empathetic: document.getElementById("empathetic-btn"),
         rational: document.getElementById("rational-btn"),
         topics: document.querySelectorAll(".topic-btn"),
       };
 
-      // Initially disable the button
-      buttons.presurveyCompleted.disabled = true;
-      buttons.presurveyCompleted.style.opacity = "0.6";
-      buttons.presurveyCompleted.style.cursor = "not-allowed";
-
-      // Add event listener for the checkbox
-      const surveyCheckbox = document.getElementById(
-        "survey-confirmation-checkbox"
-      );
-      surveyCheckbox.addEventListener("change", function () {
-        if (this.checked) {
-          // Enable the button when checkbox is checked
-          buttons.presurveyCompleted.disabled = false;
-          buttons.presurveyCompleted.style.opacity = "1";
-          buttons.presurveyCompleted.style.cursor = "pointer";
-        } else {
-          // Disable the button when checkbox is unchecked
-          buttons.presurveyCompleted.disabled = true;
-          buttons.presurveyCompleted.style.opacity = "0.6";
-          buttons.presurveyCompleted.style.cursor = "not-allowed";
-        }
-      });
+      // No need to disable the button -- > Lynn's request
+      buttons.presurveyCompleted.disabled = false;
+      buttons.presurveyCompleted.style.opacity = "1";
+      buttons.presurveyCompleted.style.cursor = "pointer";
 
       const redirectMessage = document.getElementById("redirect-message");
       const chatbotContainer = document.getElementById("chatbot-container");
@@ -432,11 +374,13 @@
       let isAI = false;
       let chatflowId = "";
       let timerInterval;
-      let remainingSeconds = 600; // 10 minutes
+      let remainingSeconds = 180; // 10 minutes
       let currentChatbotScript = null;
       let cleanupObserver = null;
       let participantAdviceStyle = ""; // Will store "empathetic" or "rational" - PrettyFormDesigner
       let participantToldChatWith = ""; // Will store "human" or "AI" - PrettyFormDesigner
+      let participantProblem = ""; // Will store "Anxiety", "Depression", or "Stress" - PrettyFormDesigner
+      let participantProlificID = ""; // Will store the Prolific ID - PrettyFormDesigner
 
       // Constants - Chatbot IDs
       const CHATBOT_IDS = {
@@ -500,12 +444,21 @@
         chatTimer.textContent = `Time remaining: ${formatTime(
           remainingSeconds
         )}`;
+        let reminderShown = false; // Add this flag to track if reminder was shown
 
         timerInterval = setInterval(() => {
           remainingSeconds--;
           chatTimer.textContent = `Time remaining: ${formatTime(
             remainingSeconds
           )}`;
+
+          // Show reminder when 20 seconds are left - in main experiment 2 min left!
+          if (remainingSeconds === 20 && !reminderShown) {
+            alert(
+              "Twenty seconds left — please wrap up any last questions or comments."
+            );
+            reminderShown = true; // Set flag to prevent showing reminder multiple times
+          }
 
           if (remainingSeconds <= 0) {
             clearInterval(timerInterval);
@@ -606,7 +559,7 @@
           }
         });
 
-        // 4. Apply super aggressive CSS - I checked this is work 100%
+        // 4. Apply super aggressive CSS - I checked this is work good
         const nukeStyle = document.createElement("style");
         nukeStyle.textContent = `
         /* Hide EVERYTHING except our container and blocker */
@@ -664,7 +617,7 @@
           console.log("Error nullifying global objects:", e);
         }
 
-        // 6. Intercept and cancel any network requests to Flowise domains
+        // 6. Intercept and cancel any network requests to Flowise domains -- I check this part again
         try {
           const originalFetch = window.fetch;
           window.fetch = function (url, options) {
@@ -724,10 +677,9 @@
           "#post-survey-section iframe"
         );
         if (postSurveyIframe) {
-          // Get the current iframe src
-          let currentSrc = postSurveyIframe.src;
+          let currentSrc = postSurveyIframe.src; // Define currentSrc
 
-          // Add our parameters with the CORRECT entry IDs - Pejman's Solution!
+          // Add our parameters with the CORRECT entry IDs - Pejman's Solution with PrettyFormDesigner!
           if (currentSrc.includes("?")) {
             currentSrc += `&entry.1936250364=${encodeURIComponent(
               participantAdviceStyle
@@ -775,6 +727,8 @@
           "participantToldChatWith",
           participantToldChatWith
         );
+        sessionStorage.setItem("participantProblem", participantProblem);
+        sessionStorage.setItem("participantProlificID", participantProlificID);
 
         // Show alert
         if (showAlert) {
@@ -789,6 +743,43 @@
 
       // initialization code
       document.addEventListener("DOMContentLoaded", function () {
+        // If we have a Prolific ID stored but are not showing the post-survey,
+        // skip the Prolific ID section and go straight to pre-survey
+        if (
+          sessionStorage.getItem("participantProlificID") &&
+          !sessionStorage.getItem("showPostSurvey")
+        ) {
+          participantProlificID = sessionStorage.getItem(
+            "participantProlificID"
+          );
+          console.log(
+            "Retrieved Prolific ID from storage:",
+            participantProlificID
+          );
+
+          // Update the pre-survey iframe with the stored Prolific ID
+          const preIframe = document.querySelector(
+            "#pre-survey-section iframe"
+          );
+          if (preIframe) {
+            let preformSrc = preIframe.src;
+            if (preformSrc.includes("?")) {
+              preIframe.src =
+                preformSrc +
+                "&entry.1480597992=" +
+                encodeURIComponent(participantProlificID);
+            } else {
+              preIframe.src =
+                preformSrc +
+                "?entry.1480597992=" +
+                encodeURIComponent(participantProlificID);
+            }
+          }
+
+          // Skip to pre-survey section
+          showSection(sections.presurvey);
+          return;
+        }
         // Check if we need to show the post-survey section
         if (sessionStorage.getItem("showPostSurvey") === "true") {
           // Get our tracking data
@@ -798,37 +789,49 @@
           const storedToldChatWith = sessionStorage.getItem(
             "participantToldChatWith"
           );
+          const storedProblem = sessionStorage.getItem("participantProblem");
+          const storedProlificID = sessionStorage.getItem(
+            "participantProlificID"
+          );
 
           // Update our variables with stored values
           if (storedAdviceStyle) participantAdviceStyle = storedAdviceStyle;
           if (storedToldChatWith) participantToldChatWith = storedToldChatWith;
+          if (storedProblem) participantProblem = storedProblem;
+          if (storedProlificID) participantProlificID = storedProlificID;
 
           // Update the post-survey iframe src to include our parameters
           const postSurveyIframe = document.querySelector(
             "#post-survey-section iframe"
           );
           if (postSurveyIframe) {
-            let currentSrc = postSurveyIframe.src;
+            let currentSrc = postSurveyIframe.src; // Modified 10.05.2025
             if (currentSrc.includes("?")) {
               currentSrc += `&entry.1936250364=${encodeURIComponent(
                 participantAdviceStyle
               )}&entry.273056075=${encodeURIComponent(
                 participantToldChatWith
-              )}`;
+              )}&entry.1286249038=${encodeURIComponent(
+                participantProblem
+              )}&entry.976761536=${encodeURIComponent(participantProlificID)}`;
             } else {
               currentSrc += `?entry.1936250364=${encodeURIComponent(
                 participantAdviceStyle
               )}&entry.273056075=${encodeURIComponent(
                 participantToldChatWith
-              )}`;
+              )}&entry.1286249038=${encodeURIComponent(
+                participantProblem
+              )}&entry.976761536=${encodeURIComponent(participantProlificID)}`;
             }
             postSurveyIframe.src = currentSrc;
           }
 
-          // Remove the flags from session storage
+          // Remove the flags from session storage - Modified 09.05.2025
           sessionStorage.removeItem("showPostSurvey");
           sessionStorage.removeItem("participantAdviceStyle");
           sessionStorage.removeItem("participantToldChatWith");
+          sessionStorage.removeItem("participantProblem");
+          sessionStorage.removeItem("participantProlificID");
 
           // Hide all sections and show only post-survey
           Object.values(sections).forEach((section) => {
@@ -857,109 +860,106 @@
         // Create chatbot script with the correct ID
         console.log("Loading chatbot with ID:", chatflowId);
 
-        // The script must be added to document.body, not to our container
+        // The script must be added to document.body, not to our container - Modified 09.05.2025
         currentChatbotScript = document.createElement("script");
         currentChatbotScript.type = "module";
         currentChatbotScript.textContent = `
-                import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+    import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+    
+    // Initialize the chatbot with the selected ID
+    Chatbot.init({
+        chatflowid: "${chatflowId}",
+        apiHost: "https://flowiseai-pej.onrender.com",
+        theme: {
+            button: {
+                backgroundColor: '#9ACBD0',
+                right: 20,
+                bottom: 20,
+                size: 48,
+                dragAndDrop: true,
+                iconColor: 'white',
+                customIconSrc: 'https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/google-messages.svg',
+                autoWindowOpen: {
+                    autoOpen: true,
+                    openDelay: 2,
+                    autoOpenOnMobile: false
+                }
+            },
+            tooltip: {
+                showTooltip: true,
+                tooltipMessage: 'Chat with Therapist',
+                tooltipBackgroundColor: '#9ACBD0',
+                tooltipTextColor: 'white',
+                tooltipFontSize: 16
+            },
+            customCSS: \`
+                /* Hide "Powered by Flowise" footer */
+                .chatbot-footer {
+                    display: none !important;
+                }
                 
-                // Initialize the chatbot with the selected ID
-                Chatbot.init({
-                    chatflowid: "${chatflowId}",
-                    apiHost: "https://flowiseai-pej.onrender.com",
-                    theme: {
-                        button: {
-                            backgroundColor: '#9ACBD0',
-                            right: 20,
-                            bottom: 20,
-                            size: 48,
-                            dragAndDrop: true,
-                            iconColor: 'white',
-                            customIconSrc: 'https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/google-messages.svg',
-                            autoWindowOpen: {
-                                autoOpen: true,
-                                openDelay: 2,
-                                autoOpenOnMobile: false
-                            }
-                        },
-                        tooltip: {
-                            showTooltip: true,
-                            tooltipMessage: 'Chat with Therapist',
-                            tooltipBackgroundColor: '#9ACBD0',
-                            tooltipTextColor: 'white',
-                            tooltipFontSize: 16
-                        },
-                        customCSS: \`
-                            /* Hide "Powered by Flowise" footer */
-                            .chatbot-footer {
-                                display: none !important;
-                            }
-                            
-                            /* Fix height to prevent touching ceiling */
-                            .chatbot-chat-view {
-                                max-height: 550px !important;
-                            }
-                        \`,
-                        chatWindow: {
-                            showTitle: true,
-                            showAgentMessages: true,
-                            title: 'Therapy Chat',
-                            titleAvatarSrc: 'https://raw.githubusercontent.com/arad1367/UniLi_sources/main/IMG/phsyco.jpg',
-                            welcomeMessage: 'You can chat here with our psychotherapist whenever you are ready.',
-                            errorMessage: 'We are sorry, but an unexpected error has occurred. Please try again later.',
-                            backgroundColor: '#ffffff',
-                            backgroundImage: 'https://raw.githubusercontent.com/arad1367/UniLi_sources/main/IMG/tim.jpg',
-                            height: 550,
-                            width: 500,
-                            fontSize: 16,
-                            clearChatOnReload: false,
-                            sourceDocsTitle: 'Sources:',
-                            renderHTML: true,
-                            botMessage: {
-                                backgroundColor: '#E8F5E9',
-                                textColor: '#333333',
-                                showAvatar: true,
-                                avatarSrc: 'https://raw.githubusercontent.com/arad1367/UniLi_sources/main/IMG/psy.jpg'
-                            },
-                            userMessage: {
-                                backgroundColor: '#E0E0E0',
-                                textColor: '#333333',
-                                showAvatar: true,
-                                avatarSrc: 'https://raw.githubusercontent.com/zahidkhawaja/langchain-chat-nextjs/main/public/usericon.png'
-                            },
-                            textInput: {
-                                placeholder: 'Type your message...',
-                                backgroundColor: '#ffffff',
-                                textColor: '#303235',
-                                sendButtonColor: '#9ACBD0',
-                                maxChars: 1000,
-                                maxCharsWarningMessage: 'You exceeded the characters limit. Please input less than 500 characters.',
-                                autoFocus: true,
-                                sendMessageSound: true,
-                                sendSoundLocation: 'send_message.mp3',
-                                receiveMessageSound: true,
-                                receiveSoundLocation: 'receive_message.mp3'
-                            },
-                            feedback: {
-                                color: '#303235'
-                            },
-                            dateTimeToggle: {
-                                date: true,
-                                time: true
-                            },
-                            footer: {
-                                textColor: '#303235',
-                                text: '',
-                                company: '',
-                                companyLink: ''
-                            }
-                        }
-                    }
-                });
-                
-                // The rest of your typing indicator code can go here
-                // For now, keeping it minimal to debug primary issue
-            `;
+                /* Fix height to prevent touching ceiling */
+                .chatbot-chat-view {
+                    max-height: 550px !important;
+                }
+            \`,
+            chatWindow: {
+                showTitle: true,
+                showAgentMessages: true,
+                title: 'Therapy Chat',
+                titleAvatarSrc: 'https://raw.githubusercontent.com/arad1367/UniLi_sources/main/IMG/phsyco.jpg',
+                welcomeMessage: 'User with Prolific ID: ${participantProlificID} has joined the chat. Hey there! How are you feeling today?',
+                errorMessage: 'We are sorry, but an unexpected error has occurred. Please try again later.',
+                backgroundColor: '#ffffff',
+                backgroundImage: 'https://raw.githubusercontent.com/arad1367/UniLi_sources/main/IMG/tim.jpg',
+                height: 550,
+                width: 500,
+                fontSize: 16,
+                clearChatOnReload: false,
+                sourceDocsTitle: 'Sources:',
+                renderHTML: true,
+                botMessage: {
+                    backgroundColor: '#E8F5E9',
+                    textColor: '#333333',
+                    showAvatar: true,
+                    avatarSrc: 'https://raw.githubusercontent.com/arad1367/UniLi_sources/main/IMG/psy.jpg'
+                },
+                userMessage: {
+                    backgroundColor: '#E0E0E0',
+                    textColor: '#333333',
+                    showAvatar: true,
+                    avatarSrc: 'https://raw.githubusercontent.com/zahidkhawaja/langchain-chat-nextjs/main/public/usericon.png'
+                },
+                textInput: {
+                    placeholder: 'Type your message...',
+                    backgroundColor: '#ffffff',
+                    textColor: '#303235',
+                    sendButtonColor: '#9ACBD0',
+                    maxChars: 1000,
+                    maxCharsWarningMessage: 'You exceeded the characters limit. Please input less than 500 characters.',
+                    autoFocus: true,
+                    sendMessageSound: true,
+                    sendSoundLocation: 'send_message.mp3',
+                    receiveMessageSound: true,
+                    receiveSoundLocation: 'receive_message.mp3'
+                },
+                feedback: {
+                    color: '#303235'
+                },
+                dateTimeToggle: {
+                    date: true,
+                    time: true
+                },
+                footer: {
+                    textColor: '#303235',
+                    text: '',
+                    company: '',
+                    companyLink: ''
+                }
+            }
+        }
+    });
+  `;
 
         // Append the script to the body
         document.body.appendChild(currentChatbotScript);
@@ -968,7 +968,7 @@
         chatbotContainer.style.display = "block";
       }
 
-      // FIXED FUNCTION - Therapy Selection with proper randomization and complete message
+      // FIXED FUNCTION - Therapy Selection with proper randomization and complete message - Final version
       function handleTherapySelection() {
         // Store the participant's selected advice style
         participantAdviceStyle = selectedTherapyType;
@@ -1008,7 +1008,7 @@
         // Simulate loading time before showing topic selection
         setTimeout(() => {
           showSection(sections.topicSelection);
-        }, 10000);
+        }, 3000);
       }
 
       // Event Listeners
@@ -1029,10 +1029,55 @@
       buttons.topics.forEach((button) => {
         button.addEventListener("click", (e) => {
           selectedTopic = e.target.dataset.topic;
+          participantProblem = e.target.textContent.trim(); // Store the topic text
           showSection(sections.chatbot);
           loadChatbot();
           startTimer();
         });
+      });
+
+      // Event listener for Prolific ID button
+      buttons.prolificID.addEventListener("click", () => {
+        // Get the Prolific ID
+        const prolificInput = document.getElementById("prolific-id-input");
+
+        if (prolificInput && prolificInput.value.trim()) {
+          // Store the Prolific ID
+          participantProlificID = prolificInput.value.trim();
+          console.log("Prolific ID entered:", participantProlificID);
+
+          // Store in sessionStorage for persistence
+          sessionStorage.setItem(
+            "participantProlificID",
+            participantProlificID
+          );
+
+          // Update the pre-interaction survey URL with the Prolific ID
+          const preIframe = document.querySelector(
+            "#pre-survey-section iframe"
+          );
+          if (preIframe) {
+            let preformSrc = preIframe.src;
+            if (preformSrc.includes("?")) {
+              preIframe.src =
+                preformSrc +
+                "&entry.1480597992=" +
+                encodeURIComponent(participantProlificID);
+            } else {
+              preIframe.src =
+                preformSrc +
+                "?entry.1480597992=" +
+                encodeURIComponent(participantProlificID);
+            }
+            console.log("Updated pre-interaction form URL:", preIframe.src);
+          }
+
+          // Move to the pre-survey section
+          showSection(sections.presurvey);
+        } else {
+          // If no Prolific ID entered, show an alert
+          alert("Please enter your Prolific ID to continue.");
+        }
       });
     </script>
   </body>
