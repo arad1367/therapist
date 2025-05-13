@@ -374,7 +374,7 @@
       let isAI = false;
       let chatflowId = "";
       let timerInterval;
-      let remainingSeconds = 180; // 10 minutes
+      let remainingSeconds = 600; // 10 minutes
       let currentChatbotScript = null;
       let cleanupObserver = null;
       let participantAdviceStyle = ""; // Will store "empathetic" or "rational" - PrettyFormDesigner
@@ -453,7 +453,7 @@
           )}`;
 
           // Show reminder when 20 seconds are left - in main experiment 2 min left!
-          if (remainingSeconds === 20 && !reminderShown) {
+          if (remainingSeconds === 60 && !reminderShown) {
             alert(
               "Twenty seconds left — please wrap up any last questions or comments."
             );
