@@ -203,6 +203,30 @@
         box-shadow: 0 0 10px rgba(154, 203, 208, 0.5);
       }
 
+      @keyframes warning-pulse {
+  0% { box-shadow: 0 0 0 0 rgba(244, 67, 54, 0.7); }
+  70% { box-shadow: 0 0 0 10px rgba(244, 67, 54, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(244, 67, 54, 0); }
+}
+
+.warning-message {
+  background-color: #ffebee; 
+  border: 2px solid #f44336; 
+  color: #d32f2f; 
+  padding: 10px; 
+  margin: 15px auto; 
+  text-align: center; 
+  border-radius: 5px; 
+  max-width: 80%;
+  animation: warning-pulse 2s infinite;
+  transition: all 0.3s;
+}
+
+.warning-message:hover {
+  background-color: #ffcdd2;
+  transform: scale(1.02);
+}
+
       @keyframes shimmering {
         0% {
           background-position: left;
@@ -269,9 +293,13 @@
         <iframe
           src="https://prettyform.addxt.com/a/form/vf/1FAIpQLSdu1IzR7oM-OLIIMKFIaOnjiz6zkeNjHehCl99OTqmCUF_LAg?width=700"
         ></iframe>
+<div class="warning-message">
+  <strong>Please ensure that you have clicked the "Submit" button on the Google Form above before proceeding. Once submitted, you may then click the button below.</strong>
+</div>
         <div class="center-content" style="margin-top: 20px">
           <button id="pre-survey-completed-btn" class="btn btn-primary">
-            I Completed Pre-Interaction Survey
+            I have completed the Pre-Interaction Survey and clicked the "Submit"
+            button above.
           </button>
         </div>
       </div>
@@ -324,12 +352,11 @@
       </div>
 
       <!-- Section 6: Post-Interaction Survey -->
-      <div id="post-survey-section" class="section">
-        <iframe
-          src="https://prettyform.addxt.com/a/form/vf/1FAIpQLSeMFZHnFRaWgvfyKdpmnzgp0jUvSesswnYF7FCG6ZbbgTIYCw"
-        ></iframe>
-      </div>
-      <footer class="shiny-footer"></footer>
+    <div id="post-survey-section" class="section">
+      <iframe src="https://prettyform.addxt.com/a/form/vf/1FAIpQLSeMFZHnFRaWgvfyKdpmnzgp0jUvSesswnYF7FCG6ZbbgTIYCw"></iframe>
+<div class="warning-message">
+  <strong>Please ensure that you have clicked the "Next" and then "Submit" button on the Google Form above before completing this experiment.</strong>
+</div>
     </div>
 
     <!-- Flowise Chatbot Embed Container -->
