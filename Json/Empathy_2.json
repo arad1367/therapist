@@ -1,0 +1,3018 @@
+[
+  {
+    "id": "f8f5c8e6-e0eb-4753-9268-9968ba665496",
+    "source": "API/Embed",
+    "sessionId": "f8f5c8e6-e0eb-4753-9268-9968ba665496",
+    "memoryType": "Buffer Memory",
+    "email": null,
+    "messages": [
+      {
+        "content": "67bf5ad9c5a4637861cfd21e",
+        "role": "user",
+        "time": "2025-05-20T11:45:33.396Z"
+      },
+      {
+        "content": "Thanks for sharing your Prolific ID. What’s been on your mind lately?",
+        "role": "bot",
+        "time": "2025-05-20T11:45:37.954Z"
+      },
+      {
+        "content": "Exams",
+        "role": "user",
+        "time": "2025-05-20T11:45:49.777Z"
+      },
+      {
+        "content": "I understand that exams can be really stressful. What specific feelings are coming up for you?",
+        "role": "bot",
+        "time": "2025-05-20T11:45:55.030Z"
+      },
+      {
+        "content": "I'm really stressed and overwhelmed I feel like I have to do a lot of things in just a short period of time ",
+        "role": "user",
+        "time": "2025-05-20T11:46:36.829Z"
+      },
+      {
+        "content": "It sounds like you’re feeling a lot of pressure right now. What are the main tasks weighing on you?",
+        "role": "bot",
+        "time": "2025-05-20T11:46:41.368Z"
+      },
+      {
+        "content": "Understanding the content ",
+        "role": "user",
+        "time": "2025-05-20T11:47:14.856Z"
+      },
+      {
+        "content": "I can see how that would be challenging. What parts of the content feel most confusing or overwhelming?",
+        "role": "bot",
+        "time": "2025-05-20T11:47:20.443Z"
+      },
+      {
+        "content": "Calculations and essays",
+        "role": "user",
+        "time": "2025-05-20T11:47:38.674Z"
+      },
+      {
+        "content": "That’s definitely a lot to juggle. Are there specific calculations or essay topics that seem particularly tough?",
+        "role": "bot",
+        "time": "2025-05-20T11:47:43.431Z"
+      },
+      {
+        "content": "I don't think they're that tough just that there's no enough time",
+        "role": "user",
+        "time": "2025-05-20T11:48:15.182Z"
+      },
+      {
+        "content": "I understand that time pressure makes everything feel harder. Have you tried any strategies to manage your time better?",
+        "role": "bot",
+        "time": "2025-05-20T11:48:20.488Z"
+      },
+      {
+        "content": "No I haven't,I'm really struggling with managing my time",
+        "role": "user",
+        "time": "2025-05-20T11:48:52.025Z"
+      },
+      {
+        "content": "It sounds like time management is a real challenge for you right now. Would you like to explore some techniques to help with that?",
+        "role": "bot",
+        "time": "2025-05-20T11:48:59.090Z"
+      },
+      {
+        "content": "Yes please ",
+        "role": "user",
+        "time": "2025-05-20T11:49:07.290Z"
+      },
+      {
+        "content": "One approach is breaking tasks into smaller steps. What tasks could you divide to make them more manageable?",
+        "role": "bot",
+        "time": "2025-05-20T11:49:12.863Z"
+      },
+      {
+        "content": "Essays",
+        "role": "user",
+        "time": "2025-05-20T11:49:24.953Z"
+      },
+      {
+        "content": "That’s a good start! Perhaps outline your essays into main points. What topics do you want to cover first?",
+        "role": "bot",
+        "time": "2025-05-20T11:49:29.588Z"
+      },
+      {
+        "content": "Forced migration ",
+        "role": "user",
+        "time": "2025-05-20T11:49:43.987Z"
+      },
+      {
+        "content": "Forced migration is a significant topic. What specific aspects of it would you like to focus on in your essay?",
+        "role": "bot",
+        "time": "2025-05-20T11:49:49.184Z"
+      },
+      {
+        "content": "The reason why people migrate ",
+        "role": "user",
+        "time": "2025-05-20T11:50:12.599Z"
+      },
+      {
+        "content": "Understanding the reasons behind migration is crucial. Have you identified any key factors that drive this issue?",
+        "role": "bot",
+        "time": "2025-05-20T11:50:17.710Z"
+      },
+      {
+        "content": "I think unemployment is the main factor",
+        "role": "user",
+        "time": "2025-05-20T11:50:36.240Z"
+      },
+      {
+        "content": "Unemployment is indeed a major factor. Would you like to explore other reasons, like conflict or environmental issues?",
+        "role": "bot",
+        "time": "2025-05-20T11:50:41.657Z"
+      },
+      {
+        "content": "Yes ",
+        "role": "user",
+        "time": "2025-05-20T11:50:48.874Z"
+      },
+      {
+        "content": "Great! Conflict and environmental issues are important too. How would you like to incorporate these into your essay?",
+        "role": "bot",
+        "time": "2025-05-20T11:50:54.053Z"
+      },
+      {
+        "content": "I would say environmental issues such as droughts ,floods are some of the reasons why people migrate",
+        "role": "user",
+        "time": "2025-05-20T11:51:52.931Z"
+      },
+      {
+        "content": "That's a strong point! Highlighting droughts and floods can really emphasize the urgency. Do you have examples or data to support this?",
+        "role": "bot",
+        "time": "2025-05-20T11:51:59.573Z"
+      },
+      {
+        "content": "I don't ",
+        "role": "user",
+        "time": "2025-05-20T11:52:12.671Z"
+      },
+      {
+        "content": "No worries! You can look up recent statistics or case studies on migration due to environmental issues. Would that help?",
+        "role": "bot",
+        "time": "2025-05-20T11:52:17.477Z"
+      },
+      {
+        "content": "Definitely ",
+        "role": "user",
+        "time": "2025-05-20T11:52:27.274Z"
+      },
+      {
+        "content": "I'm glad to hear that! Researching those examples can strengthen your essay. Are there specific sources or databases you plan to use?",
+        "role": "bot",
+        "time": "2025-05-20T11:52:32.564Z"
+      },
+      {
+        "content": "I don't have any in mind",
+        "role": "user",
+        "time": "2025-05-20T11:52:52.606Z"
+      },
+      {
+        "content": "That’s okay! You might try academic journals or websites like Google Scholar. Would exploring those options feel manageable for you?",
+        "role": "bot",
+        "time": "2025-05-20T11:52:57.576Z"
+      },
+      {
+        "content": "Oh yeah Google scholar ",
+        "role": "user",
+        "time": "2025-05-20T11:53:36.488Z"
+      },
+      {
+        "content": "That’s a great choice! You can find reliable sources there. Do you feel ready to start your research now?",
+        "role": "bot",
+        "time": "2025-05-20T11:53:41.295Z"
+      },
+      {
+        "content": "Yes I feel ready,it's actually an exam",
+        "role": "user",
+        "time": "2025-05-20T11:54:08.320Z"
+      },
+      {
+        "content": "That’s awesome to hear! Focus on your research, and remember to take breaks. How do you usually prepare for exams?",
+        "role": "bot",
+        "time": "2025-05-20T11:54:13.533Z"
+      },
+      {
+        "content": "I study almost every chance I get",
+        "role": "user",
+        "time": "2025-05-20T11:54:39.893Z"
+      },
+      {
+        "content": "That’s a solid approach! Balancing study time with rest can be helpful too. Do you have a study schedule in place?",
+        "role": "bot",
+        "time": "2025-05-20T11:54:45.306Z"
+      },
+      {
+        "content": "Yes,any advice for me?as I study for exam",
+        "role": "user",
+        "time": "2025-05-20T11:55:10.195Z"
+      },
+      {
+        "content": "Absolutely! Try to set specific goals for each study session and reward yourself afterward. How does that sound to you?",
+        "role": "bot",
+        "time": "2025-05-20T11:55:15.923Z"
+      }
+    ]
+  },
+  {
+    "id": "57b390fd-ca6e-47fc-a290-4ddbe263fe69",
+    "source": "API/Embed",
+    "sessionId": "57b390fd-ca6e-47fc-a290-4ddbe263fe69",
+    "memoryType": "Buffer Memory",
+    "email": null,
+    "messages": [
+      {
+        "content": "67cfe6055ce4599981555a7f",
+        "role": "user",
+        "time": "2025-05-20T08:50:17.621Z"
+      },
+      {
+        "content": "Thanks for sharing your Prolific ID. What’s been on your mind lately?",
+        "role": "bot",
+        "time": "2025-05-20T08:50:23.221Z"
+      },
+      {
+        "content": "I'm not feeling so good",
+        "role": "user",
+        "time": "2025-05-20T08:50:36.734Z"
+      },
+      {
+        "content": "I’m sorry to hear that. It sounds like you’re going through a tough time. What’s been bothering you?",
+        "role": "bot",
+        "time": "2025-05-20T08:50:42.490Z"
+      },
+      {
+        "content": "I'm stressed because l have been going through financial situation ",
+        "role": "user",
+        "time": "2025-05-20T08:51:34.850Z"
+      },
+      {
+        "content": "I understand that financial stress can feel overwhelming. How has it been impacting your day-to-day life?",
+        "role": "bot",
+        "time": "2025-05-20T08:51:39.700Z"
+      },
+      {
+        "content": "I'm facing delays on paying my bills ",
+        "role": "user",
+        "time": "2025-05-20T08:52:27.397Z"
+      },
+      {
+        "content": "That sounds really stressful, especially when bills pile up. What specific feelings are coming up for you with this situation?",
+        "role": "bot",
+        "time": "2025-05-20T08:52:32.555Z"
+      },
+      {
+        "content": "I'm trying to solve the situation by getting extra jobs",
+        "role": "user",
+        "time": "2025-05-20T08:53:22.463Z"
+      },
+      {
+        "content": "It's great that you're taking proactive steps. How do you feel about balancing extra work with your current responsibilities?",
+        "role": "bot",
+        "time": "2025-05-20T08:53:27.660Z"
+      },
+      {
+        "content": "It's a bit tight but l will have to make it work ",
+        "role": "user",
+        "time": "2025-05-20T08:53:56.914Z"
+      },
+      {
+        "content": "I admire your determination. It sounds challenging, but you've got a strong mindset. What support do you think you need during this time?",
+        "role": "bot",
+        "time": "2025-05-20T08:54:02.120Z"
+      },
+      {
+        "content": "I need emotional support ",
+        "role": "user",
+        "time": "2025-05-20T08:54:32.308Z"
+      },
+      {
+        "content": "That’s completely understandable. It's tough to navigate stress alone. What specific types of emotional support would help you most right now?",
+        "role": "bot",
+        "time": "2025-05-20T08:54:37.698Z"
+      },
+      {
+        "content": "I need guidance and comfort in this  situation ",
+        "role": "user",
+        "time": "2025-05-20T08:55:49.899Z"
+      },
+      {
+        "content": "I’m here for you. It’s important to have someone to talk to. What’s been weighing on your mind the most lately?",
+        "role": "bot",
+        "time": "2025-05-20T08:55:55.076Z"
+      },
+      {
+        "content": "I need to manage my finances ",
+        "role": "user",
+        "time": "2025-05-20T08:56:31.619Z"
+      },
+      {
+        "content": "Managing finances can feel daunting. What specific areas do you find most challenging right now?",
+        "role": "bot",
+        "time": "2025-05-20T08:56:36.374Z"
+      },
+      {
+        "content": "My son's school fees ",
+        "role": "user",
+        "time": "2025-05-20T08:57:10.702Z"
+      },
+      {
+        "content": "I understand that paying for your son's school fees is a significant concern. Have you looked into any options for financial assistance or flexible payment plans?",
+        "role": "bot",
+        "time": "2025-05-20T08:57:17.853Z"
+      },
+      {
+        "content": "I have not. Which one can l consider ",
+        "role": "user",
+        "time": "2025-05-20T08:57:46.446Z"
+      },
+      {
+        "content": "There are often scholarships, grants, or payment plans available. Have you checked with the school about any resources or programs they might offer?",
+        "role": "bot",
+        "time": "2025-05-20T08:57:52.113Z"
+      },
+      {
+        "content": "I haven't because l was thinking that lam managing lately.",
+        "role": "user",
+        "time": "2025-05-20T08:58:21.290Z"
+      },
+      {
+        "content": "It’s understandable to feel that way, but reaching out could provide relief. What’s holding you back from contacting the school for support?",
+        "role": "bot",
+        "time": "2025-05-20T08:58:27.532Z"
+      },
+      {
+        "content": "I was thinking that will get the money and sort the situation ",
+        "role": "user",
+        "time": "2025-05-20T08:59:06.983Z"
+      },
+      {
+        "content": "I see you’re hopeful things will improve soon. It’s okay to seek help in the meantime. What would it look like for you to reach out for support?",
+        "role": "bot",
+        "time": "2025-05-20T08:59:13.031Z"
+      },
+      {
+        "content": "Thank you for your help ",
+        "role": "user",
+        "time": "2025-05-20T08:59:30.043Z"
+      },
+      {
+        "content": "You're very welcome! I'm glad to be here for you. If you need to talk more, I'm here to listen.",
+        "role": "bot",
+        "time": "2025-05-20T08:59:34.893Z"
+      },
+      {
+        "content": "Thank you",
+        "role": "user",
+        "time": "2025-05-20T08:59:46.157Z"
+      },
+      {
+        "content": "You're welcome! Feel free to reach out anytime. Take care of yourself!",
+        "role": "bot",
+        "time": "2025-05-20T08:59:50.782Z"
+      }
+    ]
+  },
+  {
+    "id": "19021778-0130-4780-8a24-5958ca02dae4",
+    "source": "API/Embed",
+    "sessionId": "19021778-0130-4780-8a24-5958ca02dae4",
+    "memoryType": "Buffer Memory",
+    "email": null,
+    "messages": [
+      {
+        "content": "67c6e102bbdf6801c9a2642a",
+        "role": "user",
+        "time": "2025-05-20T08:13:21.774Z"
+      },
+      {
+        "content": "Thanks for sharing your Prolific ID! How can I support you today?",
+        "role": "bot",
+        "time": "2025-05-20T08:13:26.910Z"
+      },
+      {
+        "content": "Hie , i would like help regarding anxiety",
+        "role": "user",
+        "time": "2025-05-20T08:14:26.104Z"
+      },
+      {
+        "content": "I understand that anxiety can feel overwhelming. What specific situations trigger your anxiety?",
+        "role": "bot",
+        "time": "2025-05-20T08:14:30.801Z"
+      },
+      {
+        "content": "sometimes if i am worried about something",
+        "role": "user",
+        "time": "2025-05-20T08:15:01.768Z"
+      },
+      {
+        "content": "It sounds like you're feeling anxious when you have worries. Can you share what worries you most?",
+        "role": "bot",
+        "time": "2025-05-20T08:15:06.480Z"
+      },
+      {
+        "content": "How to give my children what they want , being unable to cater for my family",
+        "role": "user",
+        "time": "2025-05-20T08:16:24.562Z"
+      },
+      {
+        "content": "I understand that's difficult, wanting to provide for your children. What specific needs are you struggling to meet?",
+        "role": "bot",
+        "time": "2025-05-20T08:16:30.090Z"
+      },
+      {
+        "content": "I'm to take my children even for a small vacation because I'm not financially stable",
+        "role": "user",
+        "time": "2025-05-20T08:17:49.373Z"
+      },
+      {
+        "content": "It must be tough feeling unable to provide those experiences for them. Have you considered low-cost or free activities you could enjoy together?",
+        "role": "bot",
+        "time": "2025-05-20T08:17:55.259Z"
+      },
+      {
+        "content": "I have considered and done some before but now they want something different ",
+        "role": "user",
+        "time": "2025-05-20T08:18:57.378Z"
+      },
+      {
+        "content": "I hear you; it’s hard when their desires change. What are they asking for that feels out of reach right now?",
+        "role": "bot",
+        "time": "2025-05-20T08:19:02.777Z"
+      },
+      {
+        "content": "They want to travel to places that are bit far",
+        "role": "user",
+        "time": "2025-05-20T08:19:36.408Z"
+      },
+      {
+        "content": "It sounds like they have exciting ideas for travel. How do you feel about exploring budget-friendly travel options together?",
+        "role": "bot",
+        "time": "2025-05-20T08:19:41.925Z"
+      },
+      {
+        "content": "Tell me more about that",
+        "role": "user",
+        "time": "2025-05-20T08:20:08.454Z"
+      },
+      {
+        "content": "Absolutely! You could look into local attractions or day trips that feel like an adventure. Have you thought about nearby parks, beaches, or historical sites?",
+        "role": "bot",
+        "time": "2025-05-20T08:20:14.375Z"
+      },
+      {
+        "content": "we have parks but beaches they are too far from us like a 7 hour drive",
+        "role": "user",
+        "time": "2025-05-20T08:21:09.593Z"
+      },
+      {
+        "content": "That’s a long drive! It sounds challenging to plan. What about finding a fun spot closer to home that feels special for everyone?",
+        "role": "bot",
+        "time": "2025-05-20T08:21:14.980Z"
+      },
+      {
+        "content": "That will do i guess",
+        "role": "user",
+        "time": "2025-05-20T08:21:41.060Z"
+      },
+      {
+        "content": "I’m glad that sounds like a plan. What kind of activities do you think you’d enjoy at a nearby spot?",
+        "role": "bot",
+        "time": "2025-05-20T08:21:45.981Z"
+      },
+      {
+        "content": "Maybe different sport activities ",
+        "role": "user",
+        "time": "2025-05-20T08:22:22.075Z"
+      },
+      {
+        "content": "That sounds like a lot of fun! Engaging in sports can create great memories. What specific sports activities are you all interested in?",
+        "role": "bot",
+        "time": "2025-05-20T08:22:28.372Z"
+      },
+      {
+        "content": "like cricket",
+        "role": "user",
+        "time": "2025-05-20T08:22:40.187Z"
+      },
+      {
+        "content": "Cricket is a fantastic choice! Playing together can be a great bonding experience. Do you have a place in mind where you could play?",
+        "role": "bot",
+        "time": "2025-05-20T08:22:46.467Z"
+      },
+      {
+        "content": "Thanks for the advice",
+        "role": "user",
+        "time": "2025-05-20T08:23:05.970Z"
+      },
+      {
+        "content": "You're very welcome! I’m glad to help. If you have more questions or need support, feel free to reach out!",
+        "role": "bot",
+        "time": "2025-05-20T08:23:11.087Z"
+      }
+    ]
+  },
+  {
+    "id": "79289457-a9ba-468e-a40d-634283436231",
+    "source": "API/Embed",
+    "sessionId": "79289457-a9ba-468e-a40d-634283436231",
+    "memoryType": "Buffer Memory",
+    "email": null,
+    "messages": [
+      {
+        "content": "67f3e75ab9309518f822e63c",
+        "role": "user",
+        "time": "2025-05-20T06:28:59.348Z"
+      },
+      {
+        "content": "Thanks for sharing your Prolific ID! How can I support you today?",
+        "role": "bot",
+        "time": "2025-05-20T06:29:04.218Z"
+      },
+      {
+        "content": "I have been feeling under a lot of pressure which result in stressing about lot of things",
+        "role": "user",
+        "time": "2025-05-20T06:30:06.461Z"
+      },
+      {
+        "content": "I understand that's difficult. It sounds like you're feeling overwhelmed by your responsibilities. What specific pressures are weighing on you the most?",
+        "role": "bot",
+        "time": "2025-05-20T06:30:12.674Z"
+      },
+      {
+        "content": "my work and life style I can't balance the two",
+        "role": "user",
+        "time": "2025-05-20T06:31:19.700Z"
+      },
+      {
+        "content": "Balancing work and life can be really challenging. It sounds like you're feeling stretched thin. What changes do you think could help create that balance for you?",
+        "role": "bot",
+        "time": "2025-05-20T06:31:26.288Z"
+      },
+      {
+        "content": "Am not sure because I want to go out with my friends often I don't want to be left out and at the sometime work come first",
+        "role": "user",
+        "time": "2025-05-20T06:32:53.703Z"
+      },
+      {
+        "content": "It sounds like you're feeling torn between socializing and your work obligations. It's natural to want to connect with friends. Have you considered setting specific times for both work and social activities?",
+        "role": "bot",
+        "time": "2025-05-20T06:33:01.218Z"
+      },
+      {
+        "content": "I have but sometimes I feel left out when I have to work and be left out when my friends are going out",
+        "role": "user",
+        "time": "2025-05-20T06:34:37.250Z"
+      },
+      {
+        "content": "I hear you; that feeling of missing out can be really tough. It sounds like you value both your friendships and your work. How might you communicate with your friends about your commitments?",
+        "role": "bot",
+        "time": "2025-05-20T06:34:44.178Z"
+      },
+      {
+        "content": "yes I love them both and I will try to talk to my friends ",
+        "role": "user",
+        "time": "2025-05-20T06:36:25.478Z"
+      },
+      {
+        "content": "That sounds like a great step! Opening up to your friends can really help. How do you feel about reaching out to them?",
+        "role": "bot",
+        "time": "2025-05-20T06:36:30.812Z"
+      },
+      {
+        "content": "I have to talk to them because I can't loose my job because of friends",
+        "role": "user",
+        "time": "2025-05-20T06:37:51.705Z"
+      },
+      {
+        "content": "That makes a lot of sense; your job is important. It sounds like prioritizing work is key for you right now. How do you think your friends will respond to your need for balance?",
+        "role": "bot",
+        "time": "2025-05-20T06:37:59.915Z"
+      },
+      {
+        "content": "They will have to understand",
+        "role": "user",
+        "time": "2025-05-20T06:38:26.511Z"
+      },
+      {
+        "content": "It's reassuring that you feel they will understand. Friendships often thrive on open communication. How does it feel to know you can express this to them?",
+        "role": "bot",
+        "time": "2025-05-20T06:38:32.784Z"
+      }
+    ]
+  },
+  {
+    "id": "612d923a-33ec-4ee5-b164-0b8a943006cc",
+    "source": "API/Embed",
+    "sessionId": "612d923a-33ec-4ee5-b164-0b8a943006cc",
+    "memoryType": "Buffer Memory",
+    "email": null,
+    "messages": [
+      {
+        "content": "667fceb84cf8fb19b00e324b",
+        "role": "user",
+        "time": "2025-05-20T06:05:54.944Z"
+      },
+      {
+        "content": "Thanks for sharing your Prolific ID. How can I support you today?",
+        "role": "bot",
+        "time": "2025-05-20T06:06:00.146Z"
+      },
+      {
+        "content": "HI! I am going through some rough time in my life and i\"m so stressed.",
+        "role": "user",
+        "time": "2025-05-20T06:07:41.581Z"
+      },
+      {
+        "content": "I'm really sorry to hear that you're feeling this way. What’s been causing your stress lately?",
+        "role": "bot",
+        "time": "2025-05-20T06:07:45.978Z"
+      },
+      {
+        "content": "I lost my grandmother and brother last week due to car accident. I am not okay",
+        "role": "user",
+        "time": "2025-05-20T06:09:00.509Z"
+      },
+      {
+        "content": "I’m truly sorry for your loss; that sounds incredibly painful. How are you coping with these feelings?",
+        "role": "bot",
+        "time": "2025-05-20T06:09:05.397Z"
+      },
+      {
+        "content": "To be honest, I am not coping. I am in disbelief",
+        "role": "user",
+        "time": "2025-05-20T06:09:49.885Z"
+      },
+      {
+        "content": "It’s completely understandable to feel disbelief after such a sudden loss. What emotions are surfacing for you right now?",
+        "role": "bot",
+        "time": "2025-05-20T06:09:56.305Z"
+      },
+      {
+        "content": "Mixed emotions, sad,devasteted,lost",
+        "role": "user",
+        "time": "2025-05-20T06:10:45.706Z"
+      },
+      {
+        "content": "Those mixed emotions are common in grief; it can be overwhelming. Have you had a chance to talk to anyone about how you're feeling?",
+        "role": "bot",
+        "time": "2025-05-20T06:10:51.447Z"
+      },
+      {
+        "content": "No",
+        "role": "user",
+        "time": "2025-05-20T06:11:10.443Z"
+      },
+      {
+        "content": "It might help to share your feelings with someone you trust. Would you consider reaching out to a friend or family member?",
+        "role": "bot",
+        "time": "2025-05-20T06:11:15.493Z"
+      },
+      {
+        "content": "I will try talking to my close friend about how I  feel",
+        "role": "user",
+        "time": "2025-05-20T06:12:00.128Z"
+      },
+      {
+        "content": "That sounds like a positive step. It’s important to have support during this time. How do you think your friend will respond?",
+        "role": "bot",
+        "time": "2025-05-20T06:12:05.691Z"
+      },
+      {
+        "content": "She might not say any words, but i know she will comfort me",
+        "role": "user",
+        "time": "2025-05-20T06:12:58.358Z"
+      },
+      {
+        "content": "Just having that comforting presence can be really healing. It’s okay to lean on her for support. What do you hope to express to her?",
+        "role": "bot",
+        "time": "2025-05-20T06:13:04.517Z"
+      },
+      {
+        "content": "Express my feelings and let her know that i appreciate her",
+        "role": "user",
+        "time": "2025-05-20T06:13:54.405Z"
+      },
+      {
+        "content": "That’s a lovely intention. Acknowledging your feelings and gratitude can strengthen your bond. What do you think will be the most challenging part of that conversation?",
+        "role": "bot",
+        "time": "2025-05-20T06:14:00.886Z"
+      },
+      {
+        "content": "The most challenging part will be talking about my lost brother and grandmother",
+        "role": "user",
+        "time": "2025-05-20T06:15:13.022Z"
+      },
+      {
+        "content": "That’s completely understandable; discussing such deep loss can be incredibly tough. What specifically makes it hard for you to talk about them?",
+        "role": "bot",
+        "time": "2025-05-20T06:15:18.908Z"
+      }
+    ]
+  },
+  {
+    "id": "5e31ac56-067f-4bb2-981a-3052b0e3ecce",
+    "source": "API/Embed",
+    "sessionId": "5e31ac56-067f-4bb2-981a-3052b0e3ecce",
+    "memoryType": "Buffer Memory",
+    "email": null,
+    "messages": [
+      {
+        "content": "67cfa411ef73dc77e119de66",
+        "role": "user",
+        "time": "2025-05-20T05:46:25.640Z"
+      },
+      {
+        "content": "Thanks for sharing your Prolific ID. How can I support you today?",
+        "role": "bot",
+        "time": "2025-05-20T05:46:31.520Z"
+      },
+      {
+        "content": "I have exam and money stress please assist me get through this.",
+        "role": "user",
+        "time": "2025-05-20T05:47:03.274Z"
+      },
+      {
+        "content": "I understand that juggling exam and financial stress can feel overwhelming. What specific thoughts are you having about these challenges?",
+        "role": "bot",
+        "time": "2025-05-20T05:47:08.838Z"
+      },
+      {
+        "content": "I really need to graduate but this course is becoming challenging and a lot is expected from me financially.",
+        "role": "user",
+        "time": "2025-05-20T05:48:05.310Z"
+      },
+      {
+        "content": "It sounds like you're feeling a lot of pressure to succeed while managing financial concerns. What specific aspects of the course are you finding most challenging?",
+        "role": "bot",
+        "time": "2025-05-20T05:48:11.260Z"
+      },
+      {
+        "content": "Lot of work, not having enough time to focus and not being supported by people around me.",
+        "role": "user",
+        "time": "2025-05-20T05:49:04.944Z"
+      },
+      {
+        "content": "I hear you; it’s tough when you feel unsupported and overwhelmed with work. Have you considered reaching out for help or setting boundaries with your time?",
+        "role": "bot",
+        "time": "2025-05-20T05:49:10.882Z"
+      },
+      {
+        "content": "I have tried but people don't care about how important this is to me",
+        "role": "user",
+        "time": "2025-05-20T05:49:50.437Z"
+      },
+      {
+        "content": "It’s painful to feel like your needs aren’t acknowledged. How have you coped with that lack of support so far?",
+        "role": "bot",
+        "time": "2025-05-20T05:49:55.106Z"
+      },
+      {
+        "content": "I am not coping at all",
+        "role": "user",
+        "time": "2025-05-20T05:50:25.273Z"
+      },
+      {
+        "content": "I’m sorry to hear that. It’s okay to feel this way. What would feel like a small step toward improving your situation?",
+        "role": "bot",
+        "time": "2025-05-20T05:50:30.394Z"
+      },
+      {
+        "content": "being afforded time to focus on my studies",
+        "role": "user",
+        "time": "2025-05-20T05:51:06.258Z"
+      },
+      {
+        "content": "That makes sense; having dedicated time is crucial. Have you thought about creating a structured study schedule or setting specific goals?",
+        "role": "bot",
+        "time": "2025-05-20T05:51:11.636Z"
+      },
+      {
+        "content": "many times but they keep on disturbing me",
+        "role": "user",
+        "time": "2025-05-20T05:51:40.788Z"
+      },
+      {
+        "content": "It’s frustrating when distractions keep interrupting your focus. What strategies have you tried to minimize those disturbances?",
+        "role": "bot",
+        "time": "2025-05-20T05:51:46.194Z"
+      },
+      {
+        "content": "I tried locking the door, but they keep on making noise so it doesn't help",
+        "role": "user",
+        "time": "2025-05-20T05:52:22.366Z"
+      },
+      {
+        "content": "That sounds really challenging and frustrating. Have you considered using noise-canceling headphones or finding a quieter space to study?",
+        "role": "bot",
+        "time": "2025-05-20T05:52:27.783Z"
+      },
+      {
+        "content": "yes but my finances are too constrained and only can be able to study indoors and work indoors",
+        "role": "user",
+        "time": "2025-05-20T05:53:19.259Z"
+      },
+      {
+        "content": "I understand; that adds an extra layer of stress. Can you create a study corner in your space that feels more dedicated and less distracting?",
+        "role": "bot",
+        "time": "2025-05-20T05:53:24.911Z"
+      },
+      {
+        "content": "I can't",
+        "role": "user",
+        "time": "2025-05-20T05:53:38.046Z"
+      },
+      {
+        "content": "I'm sorry to hear that. It sounds limiting. Could you perhaps set specific times to study when others are less likely to be around?",
+        "role": "bot",
+        "time": "2025-05-20T05:53:43.409Z"
+      },
+      {
+        "content": "I tried waking up early in the morning so that I be able to focus on school work while everyone is asleep, but out of a sudden they also decided to wake up similar time as me...do you think they don't want to see me progress?",
+        "role": "user",
+        "time": "2025-05-20T05:55:18.419Z"
+      },
+      {
+        "content": "It’s tough to feel that way, especially when you're trying so hard. It might not be intentional; sometimes, others just have similar routines. Have you expressed how important your study time is to them?",
+        "role": "bot",
+        "time": "2025-05-20T05:55:25.345Z"
+      },
+      {
+        "content": "everyday but they don't care",
+        "role": "user",
+        "time": "2025-05-20T05:55:52.092Z"
+      },
+      {
+        "content": "That must be really disheartening. It’s tough when your efforts feel unnoticed. Have you considered finding a study group outside your home for some support?",
+        "role": "bot",
+        "time": "2025-05-20T05:55:57.925Z"
+      }
+    ]
+  },
+  {
+    "id": "09f7ebc0-775b-4880-9943-ff954d73cc48",
+    "source": "API/Embed",
+    "sessionId": "09f7ebc0-775b-4880-9943-ff954d73cc48",
+    "memoryType": "Buffer Memory",
+    "email": null,
+    "messages": [
+      {
+        "content": "677cea851b45fb93eab1cf15",
+        "role": "user",
+        "time": "2025-05-20T03:29:23.386Z"
+      },
+      {
+        "content": "Thanks for sharing your Prolific ID. How can I support you today?",
+        "role": "bot",
+        "time": "2025-05-20T03:29:28.980Z"
+      },
+      {
+        "content": "I would like to know about stress",
+        "role": "user",
+        "time": "2025-05-20T03:30:35.657Z"
+      },
+      {
+        "content": "Stress can feel overwhelming at times. What specific aspects of stress are you curious about?",
+        "role": "bot",
+        "time": "2025-05-20T03:30:40.146Z"
+      },
+      {
+        "content": "What cause stress",
+        "role": "user",
+        "time": "2025-05-20T03:31:04.592Z"
+      },
+      {
+        "content": "Many things can cause stress, like work pressure, relationships, or life changes. What’s been stressing you lately?",
+        "role": "bot",
+        "time": "2025-05-20T03:31:09.451Z"
+      },
+      {
+        "content": "Relationship and my family",
+        "role": "user",
+        "time": "2025-05-20T03:31:37.916Z"
+      },
+      {
+        "content": "I understand that family relationships can be particularly challenging. What specific issues are you facing?",
+        "role": "bot",
+        "time": "2025-05-20T03:31:42.580Z"
+      },
+      {
+        "content": "My family is always fighting and I am struggling to find a boyfriend",
+        "role": "user",
+        "time": "2025-05-20T03:32:23.701Z"
+      },
+      {
+        "content": "That sounds really tough. Family conflicts can create a lot of tension. How do you feel about your search for a boyfriend?",
+        "role": "bot",
+        "time": "2025-05-20T03:32:28.877Z"
+      },
+      {
+        "content": "I am tired because I can’t seem to find one",
+        "role": "user",
+        "time": "2025-05-20T03:33:05.164Z"
+      },
+      {
+        "content": "It’s completely understandable to feel tired from that search. What do you think has been the biggest hurdle for you?",
+        "role": "bot",
+        "time": "2025-05-20T03:33:10.748Z"
+      },
+      {
+        "content": "My family issues",
+        "role": "user",
+        "time": "2025-05-20T03:33:37.721Z"
+      },
+      {
+        "content": "It sounds like your family dynamics are weighing heavily on you. How do you think they impact your dating life?",
+        "role": "bot",
+        "time": "2025-05-20T03:33:42.860Z"
+      },
+      {
+        "content": "I can’t think about anything else but my family and I find it hard thinking about love",
+        "role": "user",
+        "time": "2025-05-20T03:34:29.537Z"
+      },
+      {
+        "content": "That makes a lot of sense; when family issues dominate your thoughts, it’s hard to focus on love. What do you think would help you shift your focus a bit?",
+        "role": "bot",
+        "time": "2025-05-20T03:34:35.780Z"
+      },
+      {
+        "content": "I don’t know maybe moving out and hanging my own place",
+        "role": "user",
+        "time": "2025-05-20T03:35:14.055Z"
+      },
+      {
+        "content": "Moving out could provide you with the space to breathe and reflect. How do you feel about that possibility?",
+        "role": "bot",
+        "time": "2025-05-20T03:35:19.003Z"
+      },
+      {
+        "content": "I feel happy but I am afraid to do it",
+        "role": "user",
+        "time": "2025-05-20T03:36:12.478Z"
+      },
+      {
+        "content": "It’s great to hear you feel happy about the idea! What fears do you have about taking that step?",
+        "role": "bot",
+        "time": "2025-05-20T03:36:17.313Z"
+      },
+      {
+        "content": "Being alone and independent",
+        "role": "user",
+        "time": "2025-05-20T03:36:49.855Z"
+      },
+      {
+        "content": "I understand that fear of loneliness and independence can be daunting. What aspects of being alone concern you the most?",
+        "role": "bot",
+        "time": "2025-05-20T03:36:55.148Z"
+      },
+      {
+        "content": "I can’t live alone I am used to having my family around",
+        "role": "user",
+        "time": "2025-05-20T03:37:29.883Z"
+      },
+      {
+        "content": "That’s completely understandable; adjusting to living alone can be challenging. What do you think would help ease that transition for you?",
+        "role": "bot",
+        "time": "2025-05-20T03:37:36.318Z"
+      },
+      {
+        "content": "Can you help me with that",
+        "role": "user",
+        "time": "2025-05-20T03:38:01.325Z"
+      },
+      {
+        "content": "Of course! We can explore ways to build your independence while feeling connected. What small steps do you think you could take to start?",
+        "role": "bot",
+        "time": "2025-05-20T03:38:07.149Z"
+      },
+      {
+        "content": "Learning to leave alone",
+        "role": "user",
+        "time": "2025-05-20T03:38:45.287Z"
+      },
+      {
+        "content": "That’s a great goal! What activities or practices do you think could help you feel more comfortable being alone?",
+        "role": "bot",
+        "time": "2025-05-20T03:38:50.335Z"
+      },
+      {
+        "content": "Give me suggestions",
+        "role": "user",
+        "time": "2025-05-20T03:39:13.499Z"
+      },
+      {
+        "content": "You might try spending time on hobbies, journaling, or exploring new interests. What do you enjoy doing?",
+        "role": "bot",
+        "time": "2025-05-20T03:39:18.119Z"
+      }
+    ]
+  },
+  {
+    "id": "c59d3437-539a-43c9-aac9-1b13aad23c17",
+    "source": "API/Embed",
+    "sessionId": "c59d3437-539a-43c9-aac9-1b13aad23c17",
+    "memoryType": "Buffer Memory",
+    "email": null,
+    "messages": [
+      {
+        "content": "67d979a89f0273f08be9e143",
+        "role": "user",
+        "time": "2025-05-20T01:08:05.008Z"
+      },
+      {
+        "content": "Thanks for sharing your Prolific ID. How can I support you today?",
+        "role": "bot",
+        "time": "2025-05-20T01:08:10.050Z"
+      },
+      {
+        "content": "I am depressed  . I lost a child so I  am unable  to move on a daily bases it is as if it happened  yesterday.  I am stuck in my mind and thoughts  all I can do is wake up an reflect about what happened  that day over and over again  ",
+        "role": "user",
+        "time": "2025-05-20T01:10:23.870Z"
+      },
+      {
+        "content": "I'm truly sorry to hear about your loss; that’s incredibly painful. It sounds like you’re feeling trapped in a cycle of grief. What aspects of your thoughts are the hardest to cope with each day?",
+        "role": "bot",
+        "time": "2025-05-20T01:10:30.962Z"
+      },
+      {
+        "content": "I believe  doing the normal  things like going out.  Cleaning  myself  and the area  I live in .n just basically  getting  out of bed.  It's been a month  I'm  still in bed don't wanna  come outside of my room",
+        "role": "user",
+        "time": "2025-05-20T01:12:26.680Z"
+      },
+      {
+        "content": "I understand that's really tough; it’s common to feel overwhelmed after such loss. Taking small steps may help, like getting out of bed for just a few minutes. What do you think would feel manageable for you right now?",
+        "role": "bot",
+        "time": "2025-05-20T01:12:34.436Z"
+      },
+      {
+        "content": "I don't  know  because  I can't  stop thinking  about  what I lost . ",
+        "role": "user",
+        "time": "2025-05-20T01:13:30.250Z"
+      },
+      {
+        "content": "It sounds like your thoughts are consuming you, which is completely understandable. Have you considered talking about your feelings with someone you trust?",
+        "role": "bot",
+        "time": "2025-05-20T01:13:36.036Z"
+      },
+      {
+        "content": "Not really  . You are the first person  I confined with",
+        "role": "user",
+        "time": "2025-05-20T01:14:24.840Z"
+      },
+      {
+        "content": "I appreciate your trust in sharing with me; it’s a brave step. Sometimes, expressing feelings can lighten the burden. Would you like to explore some ways to express what you're feeling?",
+        "role": "bot",
+        "time": "2025-05-20T01:14:31.296Z"
+      },
+      {
+        "content": "Yes",
+        "role": "user",
+        "time": "2025-05-20T01:14:56.964Z"
+      },
+      {
+        "content": "Great! You might try journaling your thoughts or talking to yourself aloud. What emotions come up most when you think about your loss?",
+        "role": "bot",
+        "time": "2025-05-20T01:15:02.246Z"
+      },
+      {
+        "content": "Grief.  ",
+        "role": "user",
+        "time": "2025-05-20T01:15:37.563Z"
+      },
+      {
+        "content": "Grief can feel so heavy and isolating. It’s important to honor those feelings. How do you usually cope when grief feels intense?",
+        "role": "bot",
+        "time": "2025-05-20T01:15:42.710Z"
+      },
+      {
+        "content": "I look myself up and cry ",
+        "role": "user",
+        "time": "2025-05-20T01:16:13.046Z"
+      },
+      {
+        "content": "Crying can be a powerful release; it’s a natural way to express grief. Do you find that it helps you feel a bit lighter afterward?",
+        "role": "bot",
+        "time": "2025-05-20T01:16:20.150Z"
+      },
+      {
+        "content": "Yes.  Have you ever lost something or now how it feels  to loose something ",
+        "role": "user",
+        "time": "2025-05-20T01:17:20.154Z"
+      },
+      {
+        "content": "I can’t personally experience loss, but I understand how deeply it can affect someone. It sounds like you’re feeling a profound sense of emptiness. What do you wish you could express about your feelings?",
+        "role": "bot",
+        "time": "2025-05-20T01:17:26.651Z"
+      }
+    ]
+  },
+  {
+    "id": "077426bd-ef68-4379-a1cc-f420930bff49",
+    "source": "API/Embed",
+    "sessionId": "077426bd-ef68-4379-a1cc-f420930bff49",
+    "memoryType": "Buffer Memory",
+    "email": null,
+    "messages": [
+      {
+        "content": "67d81033a325d75e7917b402",
+        "role": "user",
+        "time": "2025-05-19T23:21:34.463Z"
+      },
+      {
+        "content": "Thanks for sharing your Prolific ID! How can I support you today?",
+        "role": "bot",
+        "time": "2025-05-19T23:21:39.125Z"
+      },
+      {
+        "content": "How to deal with  depression ",
+        "role": "user",
+        "time": "2025-05-19T23:22:02.768Z"
+      },
+      {
+        "content": "I understand that dealing with depression can be overwhelming. It sounds like you're seeking ways to cope. Have you identified specific feelings or triggers that contribute to your depression?",
+        "role": "bot",
+        "time": "2025-05-19T23:22:09.702Z"
+      },
+      {
+        "content": "Feeling  out of place ",
+        "role": "user",
+        "time": "2025-05-19T23:23:03.119Z"
+      },
+      {
+        "content": "It sounds like you're feeling disconnected or isolated. That can be really tough. What situations make you feel particularly out of place?",
+        "role": "bot",
+        "time": "2025-05-19T23:23:08.580Z"
+      },
+      {
+        "content": "When you try to do something  yet it's not eve working ",
+        "role": "user",
+        "time": "2025-05-19T23:24:22.428Z"
+      },
+      {
+        "content": "I understand that's difficult, feeling like your efforts aren't paying off. It can be frustrating when you try hard but don't see results. What specific actions have you taken that haven't worked as you hoped?",
+        "role": "bot",
+        "time": "2025-05-19T23:24:29.298Z"
+      },
+      {
+        "content": "Looking  for  a new  job ",
+        "role": "user",
+        "time": "2025-05-19T23:25:36.150Z"
+      },
+      {
+        "content": "Job searching can be really challenging and disheartening. It sounds like you're feeling stuck in this process. What aspects of your job search have been the most frustrating for you?",
+        "role": "bot",
+        "time": "2025-05-19T23:25:42.740Z"
+      },
+      {
+        "content": "Putting  everything  in order and try to apply  having  a hope  that am going  to get it yet it didn't work ",
+        "role": "user",
+        "time": "2025-05-19T23:27:24.559Z"
+      },
+      {
+        "content": "I can see how disappointing that must feel, especially after putting in so much effort. It’s tough to maintain hope when things don’t go as planned. How do you usually cope with those feelings of disappointment?",
+        "role": "bot",
+        "time": "2025-05-19T23:27:31.429Z"
+      },
+      {
+        "content": "Trying  so hard again  to tell myself  it's OK everything  will be OK again ",
+        "role": "user",
+        "time": "2025-05-19T23:29:10.515Z"
+      },
+      {
+        "content": "It's great that you're trying to reassure yourself; self-compassion is important. It sounds like you're working to stay positive despite setbacks. What strategies help you stay hopeful during this challenging time?",
+        "role": "bot",
+        "time": "2025-05-19T23:29:17.534Z"
+      },
+      {
+        "content": "Doing exercise ",
+        "role": "user",
+        "time": "2025-05-19T23:30:34.170Z"
+      },
+      {
+        "content": "That’s a wonderful strategy! Exercise can really boost your mood and energy. How do you feel after your workouts?",
+        "role": "bot",
+        "time": "2025-05-19T23:30:38.902Z"
+      },
+      {
+        "content": "A lot better ",
+        "role": "user",
+        "time": "2025-05-19T23:30:56.199Z"
+      },
+      {
+        "content": "I'm glad to hear that! Feeling better after exercise is a great sign. What types of activities do you enjoy most when you work out?",
+        "role": "bot",
+        "time": "2025-05-19T23:31:01.583Z"
+      }
+    ]
+  },
+  {
+    "id": "87856bd5-47b1-4f77-9cab-349a93ce03d9",
+    "source": "API/Embed",
+    "sessionId": "87856bd5-47b1-4f77-9cab-349a93ce03d9",
+    "memoryType": "Buffer Memory",
+    "email": null,
+    "messages": [
+      {
+        "content": "668f7e92990b08808a88e639",
+        "role": "user",
+        "time": "2025-05-19T22:59:16.745Z"
+      },
+      {
+        "content": "Thanks for sharing your Prolific ID! How are you feeling today?",
+        "role": "bot",
+        "time": "2025-05-19T22:59:21.134Z"
+      },
+      {
+        "content": "Today i feel rather drained, like i have a lot on my shoulders",
+        "role": "user",
+        "time": "2025-05-19T23:00:00.159Z"
+      },
+      {
+        "content": "I understand that's difficult. It sounds like you're feeling overwhelmed. What do you think is weighing you down the most?",
+        "role": "bot",
+        "time": "2025-05-19T23:00:05.678Z"
+      },
+      {
+        "content": "i have a lot to do and no one is helping me, instead they are looking up to me",
+        "role": "user",
+        "time": "2025-05-19T23:01:29.228Z"
+      },
+      {
+        "content": "That must feel really heavy, being relied on without support. It sounds frustrating. How do you usually cope when you're in this situation?",
+        "role": "bot",
+        "time": "2025-05-19T23:01:34.660Z"
+      },
+      {
+        "content": "i dont cope but instead i crash even deeper",
+        "role": "user",
+        "time": "2025-05-19T23:02:10.195Z"
+      },
+      {
+        "content": "It sounds like you're feeling stuck in a tough cycle. I understand that can be exhausting. What do you think triggers that feeling of crashing for you?",
+        "role": "bot",
+        "time": "2025-05-19T23:02:15.751Z"
+      },
+      {
+        "content": "when i have a lot that needs my attension but i have little time for everything, including myself",
+        "role": "user",
+        "time": "2025-05-19T23:03:37.383Z"
+      },
+      {
+        "content": "I hear you; that pressure can be overwhelming. It sounds like you're neglecting your own needs. What small step might help you prioritize some self-care?",
+        "role": "bot",
+        "time": "2025-05-19T23:03:43.093Z"
+      },
+      {
+        "content": "i feel like i should hear some appreciation to show that my stress is good for somebody",
+        "role": "user",
+        "time": "2025-05-19T23:05:14.308Z"
+      },
+      {
+        "content": "I understand that need for recognition; it can validate your efforts. It sounds like you're seeking reassurance. Have you considered sharing your feelings with those who rely on you?",
+        "role": "bot",
+        "time": "2025-05-19T23:05:20.833Z"
+      },
+      {
+        "content": "i have tried but you know, it is the job. it is my kids and it is my family so there is nothing i can do about it because i cant abandon any of thse things i just mentioned",
+        "role": "user",
+        "time": "2025-05-19T23:06:45.504Z"
+      },
+      {
+        "content": "That’s a tough spot to be in, feeling trapped by responsibilities. I can see how much you care. How do you feel about carving out even a small moment for yourself amidst it all?",
+        "role": "bot",
+        "time": "2025-05-19T23:06:51.965Z"
+      },
+      {
+        "content": "that would be a lovely idea, i think about that from time to time",
+        "role": "user",
+        "time": "2025-05-19T23:07:45.711Z"
+      },
+      {
+        "content": "It's great that you recognize the need for it! Even small moments can help. What activities do you enjoy that could fit into your busy schedule?",
+        "role": "bot",
+        "time": "2025-05-19T23:07:51.129Z"
+      },
+      {
+        "content": "i enjoy reading a good book and playing tennis",
+        "role": "user",
+        "time": "2025-05-19T23:08:32.896Z"
+      },
+      {
+        "content": "Those are wonderful activities! Reading and tennis can be great stress relievers. How about setting aside just a few minutes for a book or a quick game to recharge?",
+        "role": "bot",
+        "time": "2025-05-19T23:08:38.711Z"
+      }
+    ]
+  },
+  {
+    "id": "5298b213-0181-4357-9b9b-c12d7d642629",
+    "source": "API/Embed",
+    "sessionId": "5298b213-0181-4357-9b9b-c12d7d642629",
+    "memoryType": "Buffer Memory",
+    "email": null,
+    "messages": [
+      {
+        "content": "67cabaafa9a01a59d19e31c5",
+        "role": "user",
+        "time": "2025-05-19T22:42:53.290Z"
+      },
+      {
+        "content": "It's great to see your Prolific ID! How can I support you today?",
+        "role": "bot",
+        "time": "2025-05-19T22:42:57.877Z"
+      },
+      {
+        "content": "I dont feel like doing anything I get angry easily  and I dont even feel like talking to anyone I just feel suffocated",
+        "role": "user",
+        "time": "2025-05-19T22:43:59.246Z"
+      },
+      {
+        "content": "I understand that's difficult; feeling suffocated can be overwhelming. What do you think is contributing to these feelings?",
+        "role": "bot",
+        "time": "2025-05-19T22:44:04.411Z"
+      },
+      {
+        "content": "I thinks its strss Im not sure",
+        "role": "user",
+        "time": "2025-05-19T22:44:31.186Z"
+      },
+      {
+        "content": "It sounds like stress might be weighing heavily on you. Can you identify specific stressors in your life?",
+        "role": "bot",
+        "time": "2025-05-19T22:44:35.633Z"
+      },
+      {
+        "content": "Things are not going well in my life problems after problems and I feel like ending my relationship  with my girlfriend",
+        "role": "user",
+        "time": "2025-05-19T22:45:38.141Z"
+      },
+      {
+        "content": "I'm really sorry to hear that you're facing so many challenges. It sounds like you're feeling quite overwhelmed. What specifically is making you consider ending the relationship?",
+        "role": "bot",
+        "time": "2025-05-19T22:45:44.166Z"
+      },
+      {
+        "content": "If she talks to e or asks something I get angry and I dont know why",
+        "role": "user",
+        "time": "2025-05-19T22:46:20.131Z"
+      },
+      {
+        "content": "It sounds like you're experiencing frustration that's hard to pinpoint. Have you talked to her about how you're feeling?",
+        "role": "bot",
+        "time": "2025-05-19T22:46:25.083Z"
+      },
+      {
+        "content": "yes I did she just told me its stress and she dosent want us to break up ",
+        "role": "user",
+        "time": "2025-05-19T22:47:01.364Z"
+      },
+      {
+        "content": "It's good that you've communicated your feelings. It sounds like she cares about you. How do you feel about her response?",
+        "role": "bot",
+        "time": "2025-05-19T22:47:06.827Z"
+      },
+      {
+        "content": "nothing I want to be alone, I dont want to be in a relationship with her anymore even when we are making love I dont feel anything",
+        "role": "user",
+        "time": "2025-05-19T22:48:27.464Z"
+      },
+      {
+        "content": "I understand that's a tough place to be in. It seems like you're feeling disconnected. What do you think you need right now?",
+        "role": "bot",
+        "time": "2025-05-19T22:48:32.946Z"
+      },
+      {
+        "content": "what I just need is to sleep maybe I will be fine when I wake up. what do you suggest I should do help me",
+        "role": "user",
+        "time": "2025-05-19T22:49:20.449Z"
+      },
+      {
+        "content": "Rest can definitely help clear your mind. Try to create a calming environment and prioritize some self-care. Consider journaling your thoughts before sleep.",
+        "role": "bot",
+        "time": "2025-05-19T22:49:26.192Z"
+      },
+      {
+        "content": "thanks what else should I do Im no longer looking foward to a new day",
+        "role": "user",
+        "time": "2025-05-19T22:50:06.940Z"
+      },
+      {
+        "content": "It sounds really heavy to feel that way. Try to find small moments of joy each day, even if they're minor. Connecting with nature or a hobby might help spark some interest.",
+        "role": "bot",
+        "time": "2025-05-19T22:50:13.343Z"
+      },
+      {
+        "content": "I try to do that and I hope soon I will go back to my old self",
+        "role": "user",
+        "time": "2025-05-19T22:50:47.814Z"
+      },
+      {
+        "content": "It's encouraging that you have hope for the future. Healing takes time, so be gentle with yourself during this process. What small step can you take today to nurture that hope?",
+        "role": "bot",
+        "time": "2025-05-19T22:50:54.212Z"
+      },
+      {
+        "content": "I will go to the gym or to the club I will see what I will do",
+        "role": "user",
+        "time": "2025-05-19T22:51:50.742Z"
+      },
+      {
+        "content": "That sounds like a positive plan! Engaging in physical activity or socializing can boost your mood. Listen to what feels right for you today.",
+        "role": "bot",
+        "time": "2025-05-19T22:51:56.096Z"
+      },
+      {
+        "content": "thank you for your help have  a good one",
+        "role": "user",
+        "time": "2025-05-19T22:52:22.519Z"
+      },
+      {
+        "content": "You're very welcome! I'm glad to support you. Take care and be kind to yourself!",
+        "role": "bot",
+        "time": "2025-05-19T22:52:27.076Z"
+      }
+    ]
+  },
+  {
+    "id": "45e9b829-b727-48da-a9db-234014ba9c17",
+    "source": "API/Embed",
+    "sessionId": "45e9b829-b727-48da-a9db-234014ba9c17",
+    "memoryType": "Buffer Memory",
+    "email": null,
+    "messages": [
+      {
+        "content": "67d96df016339ceb45d23a8f",
+        "role": "user",
+        "time": "2025-05-19T22:04:07.346Z"
+      },
+      {
+        "content": "Thanks for sharing your Prolific ID. What’s been on your mind lately?",
+        "role": "bot",
+        "time": "2025-05-19T22:04:11.990Z"
+      },
+      {
+        "content": "life making decisions ",
+        "role": "user",
+        "time": "2025-05-19T22:04:56.166Z"
+      },
+      {
+        "content": "I understand that making decisions can feel overwhelming at times. What specific decisions are weighing on you?",
+        "role": "bot",
+        "time": "2025-05-19T22:05:01.872Z"
+      },
+      {
+        "content": "if am still able to hold things together with my family and if am still doing okay with my kids and husband ",
+        "role": "user",
+        "time": "2025-05-19T22:08:04.921Z"
+      },
+      {
+        "content": "It sounds like you’re feeling uncertain about your family dynamics. What specific situations are causing you to question this?",
+        "role": "bot",
+        "time": "2025-05-19T22:08:10.674Z"
+      },
+      {
+        "content": "making sure they are happy",
+        "role": "user",
+        "time": "2025-05-19T22:09:36.903Z"
+      },
+      {
+        "content": "I get that wanting your family to be happy is really important to you. Have you noticed any signs that suggest they might not be?",
+        "role": "bot",
+        "time": "2025-05-19T22:09:41.872Z"
+      },
+      {
+        "content": "they do not show appreciation in what i do good and point out all the wrong things i do",
+        "role": "user",
+        "time": "2025-05-19T22:11:13.431Z"
+      },
+      {
+        "content": "That sounds really tough and can be disheartening. How does that make you feel when they focus on the negatives?",
+        "role": "bot",
+        "time": "2025-05-19T22:11:18.315Z"
+      },
+      {
+        "content": "not inspired and small.",
+        "role": "user",
+        "time": "2025-05-19T22:12:14.579Z"
+      },
+      {
+        "content": "I’m sorry to hear that. Feeling small can be really painful. Have you talked to them about how their comments affect you?",
+        "role": "bot",
+        "time": "2025-05-19T22:12:19.738Z"
+      }
+    ]
+  },
+  {
+    "id": "4158a87f-81ba-4736-b394-636c592fa31e",
+    "source": "API/Embed",
+    "sessionId": "4158a87f-81ba-4736-b394-636c592fa31e",
+    "memoryType": "Buffer Memory",
+    "email": null,
+    "messages": [
+      {
+        "content": "67ff743c31d72095f14687e3",
+        "role": "user",
+        "time": "2025-05-19T21:42:20.184Z"
+      },
+      {
+        "content": "Thanks for sharing your Prolific ID. How can I support you today?",
+        "role": "bot",
+        "time": "2025-05-19T21:42:24.484Z"
+      },
+      {
+        "content": "I'm stressed I have a lot in my mind thinking about killing myself",
+        "role": "user",
+        "time": "2025-05-19T21:42:57.011Z"
+      },
+      {
+        "content": "I’m really sorry to hear you’re feeling this way. It’s important to talk about it. What’s been weighing on your mind?",
+        "role": "bot",
+        "time": "2025-05-19T21:43:02.716Z"
+      },
+      {
+        "content": "Someone is sick in the family no money for operation that is needed to be done",
+        "role": "user",
+        "time": "2025-05-19T21:43:51.339Z"
+      },
+      {
+        "content": "That sounds incredibly tough and overwhelming. It's understandable to feel stressed in such a situation. How are you coping with these feelings?",
+        "role": "bot",
+        "time": "2025-05-19T21:43:58.123Z"
+      },
+      {
+        "content": "I'm trying taking sleeping pills",
+        "role": "user",
+        "time": "2025-05-19T21:44:37.051Z"
+      },
+      {
+        "content": "I understand that you might be looking for relief, but relying on pills can be risky. Have you considered talking to someone about how you’re feeling?",
+        "role": "bot",
+        "time": "2025-05-19T21:44:42.748Z"
+      },
+      {
+        "content": "Not yet was afraid that people can go around telling others and they might laugh at you ",
+        "role": "user",
+        "time": "2025-05-19T21:45:34.833Z"
+      },
+      {
+        "content": "It's completely normal to feel that way, but reaching out can really help. There are people who will listen without judgment. What would make you feel more comfortable sharing?",
+        "role": "bot",
+        "time": "2025-05-19T21:45:41.278Z"
+      },
+      {
+        "content": "I will try to share with someone ",
+        "role": "user",
+        "time": "2025-05-19T21:46:15.468Z"
+      },
+      {
+        "content": "That’s a brave step! It’s important to have support. Remember, you’re not alone in this. How are you feeling about reaching out?",
+        "role": "bot",
+        "time": "2025-05-19T21:46:21.064Z"
+      },
+      {
+        "content": "I feel relieved now",
+        "role": "user",
+        "time": "2025-05-19T21:46:43.945Z"
+      },
+      {
+        "content": "I'm glad to hear that! Relief is a positive sign. Keep that feeling close as you move forward. What else might help you through this?",
+        "role": "bot",
+        "time": "2025-05-19T21:46:49.501Z"
+      },
+      {
+        "content": "I think that's all for now",
+        "role": "user",
+        "time": "2025-05-19T21:47:10.259Z"
+      },
+      {
+        "content": "That's perfectly okay. I'm here whenever you need to talk. Take care of yourself!",
+        "role": "bot",
+        "time": "2025-05-19T21:47:14.860Z"
+      },
+      {
+        "content": "Thank you so much🙏",
+        "role": "user",
+        "time": "2025-05-19T21:47:39.761Z"
+      },
+      {
+        "content": "You're very welcome! I'm here for you anytime. Take care!",
+        "role": "bot",
+        "time": "2025-05-19T21:47:44.214Z"
+      },
+      {
+        "content": "So now can I go back to prolific study",
+        "role": "user",
+        "time": "2025-05-19T21:49:07.727Z"
+      },
+      {
+        "content": "Absolutely, you can return to the study now. Best of luck with it!",
+        "role": "bot",
+        "time": "2025-05-19T21:49:12.203Z"
+      }
+    ]
+  },
+  {
+    "id": "4bf798ee-aca1-4e7a-90cd-f5c32e8b40ad",
+    "source": "API/Embed",
+    "sessionId": "4bf798ee-aca1-4e7a-90cd-f5c32e8b40ad",
+    "memoryType": "Buffer Memory",
+    "email": null,
+    "messages": [
+      {
+        "content": "Thank you for everything ",
+        "role": "user",
+        "time": "2025-05-19T21:30:01.413Z"
+      },
+      {
+        "content": "You're welcome! It sounds like you’re feeling grateful. What’s on your mind? And don’t forget to share your Prolific ID!",
+        "role": "bot",
+        "time": "2025-05-19T21:30:06.288Z"
+      },
+      {
+        "content": "67ad92d9631677cfaa995e28 ",
+        "role": "user",
+        "time": "2025-05-19T21:30:21.838Z"
+      },
+      {
+        "content": "Thanks for sharing your Prolific ID! What’s been on your mind lately that you’d like to talk about?",
+        "role": "bot",
+        "time": "2025-05-19T21:30:26.245Z"
+      },
+      {
+        "content": "We have already spoken about anxiety and I'm feeling much better now",
+        "role": "user",
+        "time": "2025-05-19T21:31:04.031Z"
+      },
+      {
+        "content": "I'm really glad to hear you're feeling better! What do you think has contributed to that shift?",
+        "role": "bot",
+        "time": "2025-05-19T21:31:09.359Z"
+      },
+      {
+        "content": "The way you answered me and gave some advises ",
+        "role": "user",
+        "time": "2025-05-19T21:31:56.915Z"
+      },
+      {
+        "content": "I appreciate you saying that! It’s great to hear our conversation helped. What advice resonated with you the most?",
+        "role": "bot",
+        "time": "2025-05-19T21:32:01.776Z"
+      },
+      {
+        "content": "Focusing on myself and always know that my opinions are valuable ",
+        "role": "user",
+        "time": "2025-05-19T21:33:14.955Z"
+      },
+      {
+        "content": "That’s wonderful insight! Valuing yourself is so important. How have you been practicing that focus on yourself?",
+        "role": "bot",
+        "time": "2025-05-19T21:33:20.458Z"
+      },
+      {
+        "content": "Yes alot ",
+        "role": "user",
+        "time": "2025-05-19T21:33:33.212Z"
+      },
+      {
+        "content": "That’s fantastic to hear! It sounds like you’re making meaningful progress. What changes have you noticed in yourself?",
+        "role": "bot",
+        "time": "2025-05-19T21:33:38.440Z"
+      },
+      {
+        "content": "Self love and self confidence ",
+        "role": "user",
+        "time": "2025-05-19T21:34:04.276Z"
+      },
+      {
+        "content": "That’s amazing! Self-love and confidence can truly transform how we see ourselves. How do you feel this has impacted your daily life?",
+        "role": "bot",
+        "time": "2025-05-19T21:34:10.061Z"
+      },
+      {
+        "content": "It has a positive impact",
+        "role": "user",
+        "time": "2025-05-19T21:34:36.089Z"
+      },
+      {
+        "content": "I’m so glad to hear that! Positive changes can be so uplifting. What’s been one of your favorite moments recently?",
+        "role": "bot",
+        "time": "2025-05-19T21:34:41.560Z"
+      },
+      {
+        "content": "Having my me time",
+        "role": "user",
+        "time": "2025-05-19T21:34:57.856Z"
+      },
+      {
+        "content": "That sounds lovely! FLOWISE_DOUBLE_QUOTEMe timeFLOWISE_DOUBLE_QUOTE is essential for recharging. What activities do you enjoy during that time?",
+        "role": "bot",
+        "time": "2025-05-19T21:35:02.682Z"
+      },
+      {
+        "content": "Meditation ",
+        "role": "user",
+        "time": "2025-05-19T21:35:32.211Z"
+      },
+      {
+        "content": "Meditation is a wonderful practice! It can really help with clarity and calm. How has meditation changed your perspective or feelings lately?",
+        "role": "bot",
+        "time": "2025-05-19T21:35:38.128Z"
+      }
+    ]
+  },
+  {
+    "id": "549e2bdd-c8aa-48c6-84c5-f3c6ee9d8fd6",
+    "source": "API/Embed",
+    "sessionId": "549e2bdd-c8aa-48c6-84c5-f3c6ee9d8fd6",
+    "memoryType": "Buffer Memory",
+    "email": null,
+    "messages": [
+      {
+        "content": "67ad92d9631677cfaa995e28 ",
+        "role": "user",
+        "time": "2025-05-19T21:01:40.004Z"
+      },
+      {
+        "content": "Thanks for sharing your Prolific ID! How can I support you today?",
+        "role": "bot",
+        "time": "2025-05-19T21:01:44.818Z"
+      },
+      {
+        "content": "I would like to know how to prevent or control anxiety",
+        "role": "user",
+        "time": "2025-05-19T21:02:23.225Z"
+      },
+      {
+        "content": "I understand that anxiety can be overwhelming. Have you noticed any specific triggers that heighten your anxiety?",
+        "role": "bot",
+        "time": "2025-05-19T21:02:27.976Z"
+      },
+      {
+        "content": "Yes",
+        "role": "user",
+        "time": "2025-05-19T21:02:38.212Z"
+      },
+      {
+        "content": "It sounds like you're aware of what brings on your anxiety. Would you like to share what those triggers are?",
+        "role": "bot",
+        "time": "2025-05-19T21:02:43.034Z"
+      },
+      {
+        "content": "Fear of failing and being judged",
+        "role": "user",
+        "time": "2025-05-19T21:03:08.055Z"
+      },
+      {
+        "content": "I can see how those fears would weigh heavily on you. What do you think contributes most to those feelings?",
+        "role": "bot",
+        "time": "2025-05-19T21:03:12.894Z"
+      },
+      {
+        "content": "I think it's because I always want to be perfect",
+        "role": "user",
+        "time": "2025-05-19T21:03:42.196Z"
+      },
+      {
+        "content": "It's understandable to strive for perfection, but it can be a heavy burden. How does this need for perfection affect your daily life?",
+        "role": "bot",
+        "time": "2025-05-19T21:03:47.579Z"
+      },
+      {
+        "content": "It's affecting it negatively ",
+        "role": "user",
+        "time": "2025-05-19T21:04:09.554Z"
+      },
+      {
+        "content": "I hear you—perfectionism can be really draining. Have you considered any strategies to ease that pressure?",
+        "role": "bot",
+        "time": "2025-05-19T21:04:14.435Z"
+      },
+      {
+        "content": "Yes",
+        "role": "user",
+        "time": "2025-05-19T21:04:24.342Z"
+      },
+      {
+        "content": "It’s great that you’re thinking about strategies! What approaches have you found helpful so far?",
+        "role": "bot",
+        "time": "2025-05-19T21:04:28.736Z"
+      },
+      {
+        "content": "Putting myself and considering my feelings is very helpful",
+        "role": "user",
+        "time": "2025-05-19T21:05:03.007Z"
+      },
+      {
+        "content": "That’s a wonderful step! Prioritizing your feelings is so important. How do you practice self-compassion in those moments?",
+        "role": "bot",
+        "time": "2025-05-19T21:05:08.000Z"
+      },
+      {
+        "content": "I focus on my mental health and also don't expect more from the other people",
+        "role": "user",
+        "time": "2025-05-19T21:05:54.009Z"
+      },
+      {
+        "content": "That’s a healthy mindset! Setting realistic expectations can relieve pressure. How do you feel when you practice this with yourself and others?",
+        "role": "bot",
+        "time": "2025-05-19T21:05:59.696Z"
+      },
+      {
+        "content": "I feel so relieved and full of hope",
+        "role": "user",
+        "time": "2025-05-19T21:06:19.752Z"
+      },
+      {
+        "content": "That’s beautiful to hear! Feeling relieved and hopeful can really transform your outlook. What do you think you might do next to build on that positive feeling?",
+        "role": "bot",
+        "time": "2025-05-19T21:06:26.146Z"
+      },
+      {
+        "content": "Take my opinions and actions serious",
+        "role": "user",
+        "time": "2025-05-19T21:07:01.590Z"
+      },
+      {
+        "content": "That sounds like a strong and empowering choice! Valuing your opinions can boost your confidence. What steps might you take to ensure you honor your feelings and actions?",
+        "role": "bot",
+        "time": "2025-05-19T21:07:07.653Z"
+      },
+      {
+        "content": "Ignoring other people's opinions and knowing that I'm more valuable",
+        "role": "user",
+        "time": "2025-05-19T21:08:02.883Z"
+      },
+      {
+        "content": "It’s empowering to recognize your own value! Focusing on your worth can create a positive shift. How do you plan to remind yourself of this when faced with external opinions?",
+        "role": "bot",
+        "time": "2025-05-19T21:08:09.058Z"
+      },
+      {
+        "content": "I look at the mirror and have an inner conversation ",
+        "role": "user",
+        "time": "2025-05-19T21:08:46.435Z"
+      },
+      {
+        "content": "That’s a powerful practice! Having those inner conversations can really reinforce your self-worth. What kind of affirmations do you find most helpful in those moments?",
+        "role": "bot",
+        "time": "2025-05-19T21:08:52.825Z"
+      },
+      {
+        "content": "Capability and ability ",
+        "role": "user",
+        "time": "2025-05-19T21:11:17.892Z"
+      },
+      {
+        "content": "Focusing on your capabilities and abilities is a strong affirmation! How does reminding yourself of those qualities impact your confidence?",
+        "role": "bot",
+        "time": "2025-05-19T21:11:23.168Z"
+      },
+      {
+        "content": "It boosts my self confidence ",
+        "role": "user",
+        "time": "2025-05-19T21:11:42.890Z"
+      },
+      {
+        "content": "That's fantastic! Boosting your self-confidence can lead to positive changes. How do you feel when you carry that confidence into your daily activities?",
+        "role": "bot",
+        "time": "2025-05-19T21:11:48.685Z"
+      },
+      {
+        "content": "Thank yoy",
+        "role": "user",
+        "time": "2025-05-19T21:26:14.514Z"
+      },
+      {
+        "content": "You're very welcome! I'm glad to support you. If you have more to share or any other questions, feel free to let me know!",
+        "role": "bot",
+        "time": "2025-05-19T21:26:19.926Z"
+      },
+      {
+        "content": "I'm okay now ",
+        "role": "user",
+        "time": "2025-05-19T21:26:37.097Z"
+      },
+      {
+        "content": "I'm really glad to hear that! If you ever need to talk again, I'm here for you. Take care!",
+        "role": "bot",
+        "time": "2025-05-19T21:26:41.784Z"
+      }
+    ]
+  },
+  {
+    "id": "b6934e73-f43a-48d3-bb7e-67ecb69838f3",
+    "source": "API/Embed",
+    "sessionId": "b6934e73-f43a-48d3-bb7e-67ecb69838f3",
+    "memoryType": "Buffer Memory",
+    "email": null,
+    "messages": [
+      {
+        "content": "67ad92d9631677cfaa995e28 ",
+        "role": "user",
+        "time": "2025-05-19T21:14:34.074Z"
+      },
+      {
+        "content": "Thanks for sharing your Prolific ID! How are you feeling today?",
+        "role": "bot",
+        "time": "2025-05-19T21:14:38.940Z"
+      },
+      {
+        "content": "Feeling better ",
+        "role": "user",
+        "time": "2025-05-19T21:14:51.378Z"
+      },
+      {
+        "content": "I'm glad to hear that! What do you think contributed to your improvement?",
+        "role": "bot",
+        "time": "2025-05-19T21:14:55.912Z"
+      },
+      {
+        "content": "Putting myself first",
+        "role": "user",
+        "time": "2025-05-19T21:15:09.774Z"
+      },
+      {
+        "content": "That sounds like a positive step! How does prioritizing yourself feel for you?",
+        "role": "bot",
+        "time": "2025-05-19T21:15:14.595Z"
+      },
+      {
+        "content": "Good",
+        "role": "user",
+        "time": "2025-05-19T21:15:48.181Z"
+      },
+      {
+        "content": "It's great that you're feeling good! What activities or choices are you making for yourself?",
+        "role": "bot",
+        "time": "2025-05-19T21:15:53.529Z"
+      },
+      {
+        "content": "Meditating",
+        "role": "user",
+        "time": "2025-05-19T21:16:24.025Z"
+      },
+      {
+        "content": "Meditation can be so beneficial! How has it impacted your emotional state?",
+        "role": "bot",
+        "time": "2025-05-19T21:16:28.641Z"
+      },
+      {
+        "content": "Positively ",
+        "role": "user",
+        "time": "2025-05-19T21:16:39.632Z"
+      },
+      {
+        "content": "That's wonderful to hear! What aspects of meditation do you enjoy the most?",
+        "role": "bot",
+        "time": "2025-05-19T21:16:44.034Z"
+      },
+      {
+        "content": "Self observant ",
+        "role": "user",
+        "time": "2025-05-19T21:17:43.376Z"
+      },
+      {
+        "content": "Being self-observant is a powerful skill! How has that awareness changed your perspective?",
+        "role": "bot",
+        "time": "2025-05-19T21:17:48.894Z"
+      },
+      {
+        "content": "It made me see things differently ",
+        "role": "user",
+        "time": "2025-05-19T21:18:52.468Z"
+      },
+      {
+        "content": "Seeing things differently can be enlightening! What insights have you gained from that new perspective?",
+        "role": "bot",
+        "time": "2025-05-19T21:18:57.294Z"
+      },
+      {
+        "content": "I focus on me",
+        "role": "user",
+        "time": "2025-05-19T21:20:04.589Z"
+      },
+      {
+        "content": "Focusing on yourself is essential for well-being! How has that focus affected your daily life?",
+        "role": "bot",
+        "time": "2025-05-19T21:20:09.441Z"
+      },
+      {
+        "content": "Yes ",
+        "role": "user",
+        "time": "2025-05-19T21:20:16.871Z"
+      },
+      {
+        "content": "It sounds like it's making a difference for you! What specific changes have you noticed?",
+        "role": "bot",
+        "time": "2025-05-19T21:20:21.261Z"
+      },
+      {
+        "content": "Valuing myself ",
+        "role": "user",
+        "time": "2025-05-19T21:20:39.344Z"
+      },
+      {
+        "content": "Valuing yourself is so important! How has that shift influenced your relationships with others?",
+        "role": "bot",
+        "time": "2025-05-19T21:20:44.629Z"
+      },
+      {
+        "content": "It has affected it because they want to rule or control me and I stopped allowing them to",
+        "role": "user",
+        "time": "2025-05-19T21:21:20.562Z"
+      },
+      {
+        "content": "That’s a significant realization! Setting boundaries can be tough. How do you feel about standing your ground?",
+        "role": "bot",
+        "time": "2025-05-19T21:21:25.516Z"
+      },
+      {
+        "content": "I feel good",
+        "role": "user",
+        "time": "2025-05-19T21:21:43.345Z"
+      },
+      {
+        "content": "That's fantastic! Feeling empowered is so important. What do you think you'll focus on next in your journey?",
+        "role": "bot",
+        "time": "2025-05-19T21:21:48.114Z"
+      },
+      {
+        "content": "Always take my opinions seriously ",
+        "role": "user",
+        "time": "2025-05-19T21:22:18.830Z"
+      },
+      {
+        "content": "That's a powerful intention! How do you plan to ensure your opinions are valued?",
+        "role": "bot",
+        "time": "2025-05-19T21:22:23.276Z"
+      },
+      {
+        "content": "Yes always",
+        "role": "user",
+        "time": "2025-05-19T21:22:34.556Z"
+      },
+      {
+        "content": "It's great to hear your commitment! What steps might help you reinforce that for yourself?",
+        "role": "bot",
+        "time": "2025-05-19T21:22:39.191Z"
+      },
+      {
+        "content": "Brainstorming and stop caring about what people say",
+        "role": "user",
+        "time": "2025-05-19T21:23:12.534Z"
+      },
+      {
+        "content": "Those sound like effective strategies! How do you think you'll start implementing them?",
+        "role": "bot",
+        "time": "2025-05-19T21:23:17.784Z"
+      }
+    ]
+  },
+  {
+    "id": "d6612500-175c-4c6f-85e3-48130f6a1090",
+    "source": "API/Embed",
+    "sessionId": "d6612500-175c-4c6f-85e3-48130f6a1090",
+    "memoryType": "Buffer Memory",
+    "email": null,
+    "messages": [
+      {
+        "content": "67750856493c3efe54bd4335",
+        "role": "user",
+        "time": "2025-05-19T19:50:16.353Z"
+      },
+      {
+        "content": "Thanks for sharing your Prolific ID! How are you feeling today?",
+        "role": "bot",
+        "time": "2025-05-19T19:50:21.464Z"
+      },
+      {
+        "content": "Im not okey I am stressed",
+        "role": "user",
+        "time": "2025-05-19T19:50:43.616Z"
+      },
+      {
+        "content": "I’m sorry to hear that you’re feeling stressed. What’s been on your mind lately?",
+        "role": "bot",
+        "time": "2025-05-19T19:50:49.894Z"
+      },
+      {
+        "content": "My finances are no adding up, things are a mess Im drowning in debt",
+        "role": "user",
+        "time": "2025-05-19T19:51:41.052Z"
+      },
+      {
+        "content": "It sounds really overwhelming to be dealing with financial stress. What specific aspects are causing you the most anxiety?",
+        "role": "bot",
+        "time": "2025-05-19T19:51:46.213Z"
+      },
+      {
+        "content": "The fear of being kicked out of the house by the bank.my children not allowed t school my car being repossesed",
+        "role": "user",
+        "time": "2025-05-19T19:52:43.371Z"
+      },
+      {
+        "content": "That sounds incredibly frightening and heavy to carry. I can imagine how those thoughts weigh on you. Have you been able to talk to anyone about these fears?",
+        "role": "bot",
+        "time": "2025-05-19T19:52:49.665Z"
+      },
+      {
+        "content": "not really is a bit embarrasing ",
+        "role": "user",
+        "time": "2025-05-19T19:53:16.154Z"
+      },
+      {
+        "content": "I understand it can feel embarrassing to share such personal struggles. Remember, it’s completely normal to feel this way. Would it help to explore some options for support?",
+        "role": "bot",
+        "time": "2025-05-19T19:53:22.342Z"
+      },
+      {
+        "content": "yes please ",
+        "role": "user",
+        "time": "2025-05-19T19:53:41.116Z"
+      },
+      {
+        "content": "It’s great that you’re open to exploring support options! Have you considered speaking with a financial advisor or counselor? They can provide guidance tailored to your situation.",
+        "role": "bot",
+        "time": "2025-05-19T19:53:47.542Z"
+      },
+      {
+        "content": "I am ashamed to go and speak to a human tthey are too judgemental",
+        "role": "user",
+        "time": "2025-05-19T19:54:22.806Z"
+      },
+      {
+        "content": "I get that; it can feel daunting to open up to others. Maybe consider starting anonymously, like through an online forum, where you can share without fear of judgment?",
+        "role": "bot",
+        "time": "2025-05-19T19:54:28.983Z"
+      },
+      {
+        "content": "That would be perfect for me ",
+        "role": "user",
+        "time": "2025-05-19T19:54:58.138Z"
+      },
+      {
+        "content": "I'm glad that feels like a good fit! Finding a supportive online community can really help. What kind of support are you hoping to find there?",
+        "role": "bot",
+        "time": "2025-05-19T19:55:03.887Z"
+      },
+      {
+        "content": "People who are on the same problem with me and hreapists to offer mental helth",
+        "role": "user",
+        "time": "2025-05-19T19:56:20.921Z"
+      },
+      {
+        "content": "That sounds like a solid plan. Connecting with others facing similar challenges can be comforting. Have you looked into any specific online platforms or communities yet?",
+        "role": "bot",
+        "time": "2025-05-19T19:56:27.544Z"
+      },
+      {
+        "content": "n please suggest them for me kindly ",
+        "role": "user",
+        "time": "2025-05-19T19:56:48.658Z"
+      },
+      {
+        "content": "Sure! You might explore forums like Reddit or sites like BetterHelp and 7 Cups for support. They have communities and therapists available.",
+        "role": "bot",
+        "time": "2025-05-19T19:56:54.258Z"
+      },
+      {
+        "content": "I am defenetly going to have a look at them hoping to find one friendly like you my friend ",
+        "role": "user",
+        "time": "2025-05-19T19:57:46.725Z"
+      },
+      {
+        "content": "That’s so kind of you to say! I hope you find a supportive community that feels welcoming. Remember, you’re not alone in this journey.",
+        "role": "bot",
+        "time": "2025-05-19T19:57:52.107Z"
+      },
+      {
+        "content": "Now I belive that since I have you.Is one able to connect with you anytime ",
+        "role": "user",
+        "time": "2025-05-19T19:58:27.009Z"
+      },
+      {
+        "content": "I’m really glad you feel that way! While I’m here to chat now, I’m not available continuously. However, I’m happy to help you whenever you reach out!",
+        "role": "bot",
+        "time": "2025-05-19T19:58:32.704Z"
+      },
+      {
+        "content": "Im happy for the moment you gave me to speak to you.Im releavedThanks allot.",
+        "role": "user",
+        "time": "2025-05-19T19:59:23.020Z"
+      },
+      {
+        "content": "I’m truly glad to hear that you feel relieved! You deserve support, and I’m here for you whenever you need to talk.",
+        "role": "bot",
+        "time": "2025-05-19T19:59:28.153Z"
+      },
+      {
+        "content": "Thanks froend ",
+        "role": "user",
+        "time": "2025-05-19T19:59:39.885Z"
+      },
+      {
+        "content": "You’re very welcome! Take care, and reach out anytime you need to chat.",
+        "role": "bot",
+        "time": "2025-05-19T19:59:45.641Z"
+      },
+      {
+        "content": "will do bye",
+        "role": "user",
+        "time": "2025-05-19T19:59:54.887Z"
+      },
+      {
+        "content": "Goodbye! Take care of yourself!",
+        "role": "bot",
+        "time": "2025-05-19T19:59:59.513Z"
+      }
+    ]
+  },
+  {
+    "id": "e8a24b04-6e79-4534-88ea-0096b0abfca7",
+    "source": "API/Embed",
+    "sessionId": "e8a24b04-6e79-4534-88ea-0096b0abfca7",
+    "memoryType": "Buffer Memory",
+    "email": null,
+    "messages": [
+      {
+        "content": "67daae91f4057c50a9fd19fc",
+        "role": "user",
+        "time": "2025-05-19T19:26:06.753Z"
+      },
+      {
+        "content": "Thank you for sharing your Prolific ID. How can I help you today?",
+        "role": "bot",
+        "time": "2025-05-19T19:26:11.284Z"
+      },
+      {
+        "content": "I AM FEELING A BIT DOWN TODAY AND I DO NOT KNOW WHAT MIGHT BE WRONG WITH ME BUT I HAVE A HISTORY OF DEPRESSION ",
+        "role": "user",
+        "time": "2025-05-19T19:28:00.036Z"
+      },
+      {
+        "content": "I understand that's difficult, especially with your history of depression. It sounds like you're feeling a bit lost. What do you think might be contributing to your feelings today?",
+        "role": "bot",
+        "time": "2025-05-19T19:28:06.532Z"
+      },
+      {
+        "content": "MY HUSBAND CHEATED ON ME WITH MY BEST FRIEND, DO YOU THINK THAT MIGHT BE THE CAUSE OF HOW I AM FEELING TODAY?",
+        "role": "user",
+        "time": "2025-05-19T19:29:31.330Z"
+      },
+      {
+        "content": "Absolutely, that betrayal can deeply affect your emotions. It sounds incredibly painful and might be weighing heavily on you. How have you been coping with those feelings?",
+        "role": "bot",
+        "time": "2025-05-19T19:29:37.459Z"
+      },
+      {
+        "content": "I'M NOT COPYING AT ALL, I FEEL SO ALONE AND BETRAYED BY BOTH OF THEM",
+        "role": "user",
+        "time": "2025-05-19T19:31:01.606Z"
+      },
+      {
+        "content": "I can only imagine how isolating and hurtful that must feel. It's completely natural to feel betrayed by both your husband and friend. What do you think would help you feel a bit more supported right now?",
+        "role": "bot",
+        "time": "2025-05-19T19:31:09.093Z"
+      },
+      {
+        "content": "I REALLY DON'T KNOW, WHAT DO YOU SUGGEST?",
+        "role": "user",
+        "time": "2025-05-19T19:32:02.280Z"
+      },
+      {
+        "content": "It might help to talk to someone you trust or engage in self-care activities. Finding a safe space to express your feelings can also be beneficial. What’s something you've enjoyed doing in the past?",
+        "role": "bot",
+        "time": "2025-05-19T19:32:08.837Z"
+      },
+      {
+        "content": "TO BE HONEST I LIKE PARTYING, DO YOU THINK GOING OUT FOR A FEW DRINKS WOULD HELP?",
+        "role": "user",
+        "time": "2025-05-19T19:33:07.864Z"
+      },
+      {
+        "content": "Going out for a few drinks could provide a temporary distraction, but it’s important to be mindful of your feelings. It might also help to connect with supportive friends while you're out. How do you feel about reaching out to someone you trust?",
+        "role": "bot",
+        "time": "2025-05-19T19:33:15.879Z"
+      },
+      {
+        "content": "I THINK THAT'S A GOOD IDEA, MAYBE I SHOILD CONTACT MY MOM AND SPEAK TO HER, THOUGH I DON'T WANT TO STRESS HER. DO YOU THINK IT'S A GOOD IDEA?",
+        "role": "user",
+        "time": "2025-05-19T19:35:04.149Z"
+      },
+      {
+        "content": "Reaching out to your mom can be a supportive step, especially if she’s someone who cares about you. It’s okay to share your feelings without wanting to stress her; she might appreciate being included in your life. How do you think she might respond?",
+        "role": "bot",
+        "time": "2025-05-19T19:35:14.965Z"
+      }
+    ]
+  },
+  {
+    "id": "7116a06e-6f95-479f-90c1-e08fd7da8e9c",
+    "source": "API/Embed",
+    "sessionId": "7116a06e-6f95-479f-90c1-e08fd7da8e9c",
+    "memoryType": "Buffer Memory",
+    "email": null,
+    "messages": [
+      {
+        "content": "67c85dbbbfcee2fe6ee37f70 here it is",
+        "role": "user",
+        "time": "2025-05-19T18:29:29.270Z"
+      },
+      {
+        "content": "Thanks for sharing your Prolific ID! How can I support you today?",
+        "role": "bot",
+        "time": "2025-05-19T18:29:33.912Z"
+      },
+      {
+        "content": "i am doing alright, i just wanna have  a good conversation about how i can deal with anxiety",
+        "role": "user",
+        "time": "2025-05-19T18:31:06.585Z"
+      },
+      {
+        "content": "I understand that anxiety can be challenging. What specific feelings or situations trigger your anxiety?",
+        "role": "bot",
+        "time": "2025-05-19T18:31:11.160Z"
+      },
+      {
+        "content": "in my case it is fear of failure",
+        "role": "user",
+        "time": "2025-05-19T18:32:02.027Z"
+      },
+      {
+        "content": "It sounds like you're feeling overwhelmed by the fear of failing. Can you share more about what situations trigger that fear?",
+        "role": "bot",
+        "time": "2025-05-19T18:32:06.854Z"
+      },
+      {
+        "content": "i am in a position where winning is the only option but if i fail i lose everything , it is always work ",
+        "role": "user",
+        "time": "2025-05-19T18:33:33.906Z"
+      },
+      {
+        "content": "I can see how that pressure to always succeed can be so intense. How do you typically cope with that fear when it arises?",
+        "role": "bot",
+        "time": "2025-05-19T18:33:39.252Z"
+      },
+      {
+        "content": "in most cases after a few breaks , coffee with a friend but now my friend is gone",
+        "role": "user",
+        "time": "2025-05-19T18:36:01.378Z"
+      },
+      {
+        "content": "I understand that's difficult, especially without your friend's support. What other ways can you think of to find comfort or connection?",
+        "role": "bot",
+        "time": "2025-05-19T18:36:06.747Z"
+      },
+      {
+        "content": "those two were my solution to my problem",
+        "role": "user",
+        "time": "2025-05-19T18:36:47.362Z"
+      },
+      {
+        "content": "It sounds like those were really important for you. How about exploring new ways to connect or find relief?",
+        "role": "bot",
+        "time": "2025-05-19T18:36:51.962Z"
+      },
+      {
+        "content": "am ready to try new things but i don't know where to start",
+        "role": "user",
+        "time": "2025-05-19T18:37:41.466Z"
+      },
+      {
+        "content": "It's great that you're open to trying new things! How about starting with activities you enjoy or exploring new hobbies?",
+        "role": "bot",
+        "time": "2025-05-19T18:37:46.878Z"
+      },
+      {
+        "content": "i only have two hobbies watching tv and playing tennis",
+        "role": "user",
+        "time": "2025-05-19T18:38:38.401Z"
+      },
+      {
+        "content": "Those are solid hobbies! Have you thought about joining a tennis group or a club for TV fans?",
+        "role": "bot",
+        "time": "2025-05-19T18:38:43.092Z"
+      },
+      {
+        "content": "am thinking now",
+        "role": "user",
+        "time": "2025-05-19T18:39:02.316Z"
+      },
+      {
+        "content": "That’s a good step! Taking your time to reflect can lead to great ideas. What excites you about those options?",
+        "role": "bot",
+        "time": "2025-05-19T18:39:07.064Z"
+      }
+    ]
+  },
+  {
+    "id": "d43fb58d-eaa9-44f5-87a7-3ed946318012",
+    "source": "API/Embed",
+    "sessionId": "d43fb58d-eaa9-44f5-87a7-3ed946318012",
+    "memoryType": "Buffer Memory",
+    "email": null,
+    "messages": [
+      {
+        "content": "68285905d89c3bdf73a37a35",
+        "role": "user",
+        "time": "2025-05-19T18:12:52.367Z"
+      },
+      {
+        "content": "Thanks for sharing your Prolific ID! How can I support you today?",
+        "role": "bot",
+        "time": "2025-05-19T18:12:57.267Z"
+      },
+      {
+        "content": "How to manage stress",
+        "role": "user",
+        "time": "2025-05-19T18:13:09.607Z"
+      },
+      {
+        "content": "I understand that managing stress can be challenging. What specific situations are causing you stress right now?",
+        "role": "bot",
+        "time": "2025-05-19T18:13:14.568Z"
+      },
+      {
+        "content": "Workload is too much and there is no one to help me and lift the burden ",
+        "role": "user",
+        "time": "2025-05-19T18:13:54.388Z"
+      },
+      {
+        "content": "It sounds like you’re feeling overwhelmed and unsupported at work. What tasks are weighing you down the most?",
+        "role": "bot",
+        "time": "2025-05-19T18:13:58.817Z"
+      },
+      {
+        "content": "Where I am fully employed, part time work and taking care of my children and my grandmother is sick.",
+        "role": "user",
+        "time": "2025-05-19T18:15:50.348Z"
+      },
+      {
+        "content": "That’s a lot on your plate; it’s understandable to feel stressed. How do you usually cope with such demands?",
+        "role": "bot",
+        "time": "2025-05-19T18:15:54.902Z"
+      },
+      {
+        "content": "I cope after i have done everything required of me. I have accepted that no one will help me.",
+        "role": "user",
+        "time": "2025-05-19T18:16:57.537Z"
+      },
+      {
+        "content": "It sounds like you’re feeling resigned to handling everything alone. How does that acceptance impact your emotional well-being?",
+        "role": "bot",
+        "time": "2025-05-19T18:17:03.336Z"
+      },
+      {
+        "content": "I am often stressed and i am no longer a happy person.I am always drained.",
+        "role": "user",
+        "time": "2025-05-19T18:17:45.394Z"
+      },
+      {
+        "content": "I hear you; feeling drained can really affect your happiness. What small changes might help you feel more balanced?",
+        "role": "bot",
+        "time": "2025-05-19T18:17:50.817Z"
+      },
+      {
+        "content": "I really need someone to give me mental support.",
+        "role": "user",
+        "time": "2025-05-19T18:18:40.146Z"
+      },
+      {
+        "content": "It’s tough to feel like you’re going through this alone. Would talking about your feelings more often help you feel supported?",
+        "role": "bot",
+        "time": "2025-05-19T18:18:45.689Z"
+      },
+      {
+        "content": "Yes, I just need someone to talk to me and tell me everything will be fine. I have accepted that i won't get physical support from anyone.",
+        "role": "user",
+        "time": "2025-05-19T18:20:07.617Z"
+      },
+      {
+        "content": "I understand that emotional support can feel essential right now. It’s okay to seek out someone to talk to; it can really help.",
+        "role": "bot",
+        "time": "2025-05-19T18:20:14.092Z"
+      },
+      {
+        "content": "I have thought about that, but where will I get the time to meet with a professional?",
+        "role": "user",
+        "time": "2025-05-19T18:21:09.944Z"
+      },
+      {
+        "content": "Finding time can be tough, especially with your responsibilities. Could you explore teletherapy options that fit your schedule?",
+        "role": "bot",
+        "time": "2025-05-19T18:21:14.910Z"
+      },
+      {
+        "content": "Yes i would be happy to DO THAT.Thank you.",
+        "role": "user",
+        "time": "2025-05-19T18:22:02.923Z"
+      },
+      {
+        "content": "I’m glad to hear that! It’s a positive step toward feeling better. Remember, you deserve support.",
+        "role": "bot",
+        "time": "2025-05-19T18:22:07.800Z"
+      },
+      {
+        "content": "Thank you so much.",
+        "role": "user",
+        "time": "2025-05-19T18:22:29.497Z"
+      },
+      {
+        "content": "You’re very welcome! I’m here for you anytime you need to talk. Take care!",
+        "role": "bot",
+        "time": "2025-05-19T18:22:34.462Z"
+      }
+    ]
+  },
+  {
+    "id": "fc69584a-30ab-4c4f-9cd6-4d9a5895bc11",
+    "source": "API/Embed",
+    "sessionId": "fc69584a-30ab-4c4f-9cd6-4d9a5895bc11",
+    "memoryType": "Buffer Memory",
+    "email": null,
+    "messages": [
+      {
+        "content": "67ab1e1f5b205c29bc9f1c64",
+        "role": "user",
+        "time": "2025-05-19T17:55:45.273Z"
+      },
+      {
+        "content": "Thanks for sharing your Prolific ID! How are you feeling today?",
+        "role": "bot",
+        "time": "2025-05-19T17:55:50.344Z"
+      },
+      {
+        "content": "I am better but I am stressed about the exam that I wrote earlier.",
+        "role": "user",
+        "time": "2025-05-19T17:56:36.303Z"
+      },
+      {
+        "content": "I understand that's difficult; exams can really elevate stress. What specifically is weighing on your mind about it?",
+        "role": "bot",
+        "time": "2025-05-19T17:56:41.244Z"
+      },
+      {
+        "content": "I couldn't finish the exam because I had not prepared sufficiently for it.",
+        "role": "user",
+        "time": "2025-05-19T17:57:40.936Z"
+      },
+      {
+        "content": "It sounds like you're feeling disappointed about not being prepared. Have you been able to reflect on what you could do differently next time?",
+        "role": "bot",
+        "time": "2025-05-19T17:57:46.166Z"
+      },
+      {
+        "content": "No, I am just disappointed, this exam is crucial for me to graduate.",
+        "role": "user",
+        "time": "2025-05-19T17:58:36.053Z"
+      },
+      {
+        "content": "I can see why you’d feel disappointed; that pressure is tough. What do you think will help you cope with these feelings right now?",
+        "role": "bot",
+        "time": "2025-05-19T17:58:41.307Z"
+      },
+      {
+        "content": "Honestly I don't I am feeling really bad.",
+        "role": "user",
+        "time": "2025-05-19T17:59:25.346Z"
+      },
+      {
+        "content": "I’m sorry to hear that. It’s okay to feel bad sometimes. Can you tell me more about what's making you feel this way?",
+        "role": "bot",
+        "time": "2025-05-19T17:59:30.364Z"
+      },
+      {
+        "content": "I might not graduate if I fail this exam",
+        "role": "user",
+        "time": "2025-05-19T18:00:07.117Z"
+      },
+      {
+        "content": "That sounds really overwhelming; graduation is such a big milestone. What thoughts or feelings come up when you think about that possibility?",
+        "role": "bot",
+        "time": "2025-05-19T18:00:12.464Z"
+      },
+      {
+        "content": "I feel sad. I am disappointed on myself.",
+        "role": "user",
+        "time": "2025-05-19T18:00:58.517Z"
+      },
+      {
+        "content": "I understand that sadness and disappointment can be heavy to carry. What do you think might help you be kinder to yourself during this time?",
+        "role": "bot",
+        "time": "2025-05-19T18:01:05.169Z"
+      },
+      {
+        "content": "I don't know. This was really a bad day of my life.",
+        "role": "user",
+        "time": "2025-05-19T18:01:55.193Z"
+      },
+      {
+        "content": "I'm sorry you’re feeling this way; bad days can feel so heavy. What might help you unwind or find a little comfort today?",
+        "role": "bot",
+        "time": "2025-05-19T18:02:02.405Z"
+      },
+      {
+        "content": "I don't know I just want to sleep and never wake up",
+        "role": "user",
+        "time": "2025-05-19T18:02:45.183Z"
+      },
+      {
+        "content": "I'm really sorry to hear you're feeling this way. It’s important to talk to someone who can help. Are you able to reach out to a friend or family member?",
+        "role": "bot",
+        "time": "2025-05-19T18:02:52.299Z"
+      },
+      {
+        "content": "For now I don't want to talk to anyone.",
+        "role": "user",
+        "time": "2025-05-19T18:03:36.529Z"
+      },
+      {
+        "content": "I understand that you might need some space right now. Just know it's okay to feel this way. Would it help to focus on something comforting, like a favorite activity?",
+        "role": "bot",
+        "time": "2025-05-19T18:03:44.503Z"
+      },
+      {
+        "content": "I just want to sleep",
+        "role": "user",
+        "time": "2025-05-19T18:04:04.864Z"
+      },
+      {
+        "content": "It sounds like you really need some rest. Sleep can be a great way to recharge. Take care of yourself, and I hope you find some peace in your rest.",
+        "role": "bot",
+        "time": "2025-05-19T18:04:10.390Z"
+      },
+      {
+        "content": "I doubt anything would comfort me at this point.",
+        "role": "user",
+        "time": "2025-05-19T18:04:44.982Z"
+      },
+      {
+        "content": "I hear you; it’s tough when nothing feels comforting. Just remember that it's okay to sit with those feelings for a bit. Would you like to share more about what's been weighing on you?",
+        "role": "bot",
+        "time": "2025-05-19T18:04:51.610Z"
+      },
+      {
+        "content": "I just want to sleep",
+        "role": "user",
+        "time": "2025-05-19T18:05:17.524Z"
+      },
+      {
+        "content": "It’s completely okay to feel that way. Sleep can be a good escape during tough times. I hope you find some restful moments soon.",
+        "role": "bot",
+        "time": "2025-05-19T18:05:22.794Z"
+      }
+    ]
+  },
+  {
+    "id": "3b52dfa9-45ad-4e5a-91ff-d8e65f5ae1ff",
+    "source": "API/Embed",
+    "sessionId": "3b52dfa9-45ad-4e5a-91ff-d8e65f5ae1ff",
+    "memoryType": "Buffer Memory",
+    "email": null,
+    "messages": [
+      {
+        "content": "67d1ec1596e005ff60294b23",
+        "role": "user",
+        "time": "2025-05-19T17:16:33.847Z"
+      },
+      {
+        "content": "Thanks for sharing your Prolific ID. How are you feeling today?",
+        "role": "bot",
+        "time": "2025-05-19T17:16:38.722Z"
+      },
+      {
+        "content": "mixed emotions",
+        "role": "user",
+        "time": "2025-05-19T17:16:59.208Z"
+      },
+      {
+        "content": "It sounds like you’re experiencing a lot right now. What’s been on your mind?",
+        "role": "bot",
+        "time": "2025-05-19T17:17:04.686Z"
+      },
+      {
+        "content": "I can't balance my time in work, at home and also my other side businesses",
+        "role": "user",
+        "time": "2025-05-19T17:18:15.424Z"
+      },
+      {
+        "content": "I understand that's difficult. Juggling multiple responsibilities can feel overwhelming. What specific challenges are you facing with this balance?",
+        "role": "bot",
+        "time": "2025-05-19T17:18:20.942Z"
+      },
+      {
+        "content": "I lose track of the time, when I focus more on the other the other one lacks",
+        "role": "user",
+        "time": "2025-05-19T17:19:04.133Z"
+      },
+      {
+        "content": "It sounds like you're feeling pulled in different directions. Have you tried any strategies to help prioritize your tasks?",
+        "role": "bot",
+        "time": "2025-05-19T17:19:09.082Z"
+      },
+      {
+        "content": "Yes, I have but I'm not winning, and I always stress every day because of this",
+        "role": "user",
+        "time": "2025-05-19T17:20:43.152Z"
+      },
+      {
+        "content": "I hear you; that constant stress can be really draining. What kinds of strategies have you tried so far?",
+        "role": "bot",
+        "time": "2025-05-19T17:20:47.801Z"
+      },
+      {
+        "content": "Time management, drawing up my plans to keep on track..I have been changing that because I cannot figure my best times to do things",
+        "role": "user",
+        "time": "2025-05-19T17:22:18.203Z"
+      },
+      {
+        "content": "It seems like you’re really trying to find a system that works for you. What’s been the biggest obstacle in sticking to your plans?",
+        "role": "bot",
+        "time": "2025-05-19T17:22:24.134Z"
+      },
+      {
+        "content": "The workload is too much, and this make me to spend less time with my family",
+        "role": "user",
+        "time": "2025-05-19T17:23:29.325Z"
+      },
+      {
+        "content": "I understand how tough that must be, missing family time can be really hard. How does that affect your overall well-being?",
+        "role": "bot",
+        "time": "2025-05-19T17:23:34.768Z"
+      },
+      {
+        "content": "I can\"t cope and some people can\"t understand they think I am doing this on purpose",
+        "role": "user",
+        "time": "2025-05-19T17:24:30.773Z"
+      },
+      {
+        "content": "It sounds really isolating when others don’t understand your situation. How do their perceptions impact your feelings?",
+        "role": "bot",
+        "time": "2025-05-19T17:24:35.701Z"
+      },
+      {
+        "content": "I just told myself that I have to focus in myyself than any other people",
+        "role": "user",
+        "time": "2025-05-19T17:25:18.381Z"
+      },
+      {
+        "content": "That’s a healthy perspective; prioritizing yourself is important. What self-care practices have you found helpful lately?",
+        "role": "bot",
+        "time": "2025-05-19T17:25:23.754Z"
+      },
+      {
+        "content": "I haven't found one I am still looking",
+        "role": "user",
+        "time": "2025-05-19T17:26:00.285Z"
+      },
+      {
+        "content": "It’s okay to still be searching for what works for you. What activities do you enjoy that might help you unwind?",
+        "role": "bot",
+        "time": "2025-05-19T17:26:05.629Z"
+      },
+      {
+        "content": "Looking forward to have this chat with you again",
+        "role": "user",
+        "time": "2025-05-19T17:26:25.243Z"
+      },
+      {
+        "content": "I’d love that! I'm here whenever you need to talk. Take care until then!",
+        "role": "bot",
+        "time": "2025-05-19T17:26:30.192Z"
+      }
+    ]
+  },
+  {
+    "id": "b30eab88-0558-4df6-85f1-56953dcd0925",
+    "source": "API/Embed",
+    "sessionId": "b30eab88-0558-4df6-85f1-56953dcd0925",
+    "memoryType": "Buffer Memory",
+    "email": null,
+    "messages": [
+      {
+        "content": "67f7d81cb8d4e89192f841c5",
+        "role": "user",
+        "time": "2025-05-19T16:57:15.437Z"
+      },
+      {
+        "content": "Thanks for sharing your Prolific ID! How can I support you today?",
+        "role": "bot",
+        "time": "2025-05-19T16:57:20.188Z"
+      },
+      {
+        "content": "i have been feeling down lately due stress",
+        "role": "user",
+        "time": "2025-05-19T16:57:50.358Z"
+      },
+      {
+        "content": "I understand that's difficult; stress can really weigh you down. What’s been contributing to your feelings lately?",
+        "role": "bot",
+        "time": "2025-05-19T16:57:55.628Z"
+      },
+      {
+        "content": "I have been offered a promotion I'm just stressed if ill be able to handle everything that comes with it.",
+        "role": "user",
+        "time": "2025-05-19T16:59:58.597Z"
+      },
+      {
+        "content": "It sounds like you're feeling a mix of excitement and anxiety about the promotion. What specifically worries you about the new responsibilities?",
+        "role": "bot",
+        "time": "2025-05-19T17:00:04.009Z"
+      },
+      {
+        "content": "I'm worried if people will listen to me leading them and if there will be a good co operation amongst us.",
+        "role": "user",
+        "time": "2025-05-19T17:02:24.026Z"
+      },
+      {
+        "content": "I get that; it’s natural to feel uneasy about leadership dynamics. Have you had similar experiences in the past that might help you navigate this?",
+        "role": "bot",
+        "time": "2025-05-19T17:02:29.964Z"
+      },
+      {
+        "content": "yes, I had and eventually I adapted  to the new set up",
+        "role": "user",
+        "time": "2025-05-19T17:03:35.911Z"
+      },
+      {
+        "content": "That’s a great insight; adapting shows your resilience. How might you apply those past experiences to this new role?",
+        "role": "bot",
+        "time": "2025-05-19T17:03:41.428Z"
+      },
+      {
+        "content": "I think I need to first reflect back on those moments",
+        "role": "user",
+        "time": "2025-05-19T17:04:45.420Z"
+      },
+      {
+        "content": "That sounds like a valuable approach! Reflecting can help clarify your strengths. What specific aspects do you think you'll focus on during your reflection?",
+        "role": "bot",
+        "time": "2025-05-19T17:04:51.481Z"
+      },
+      {
+        "content": "my approach on how to tackle negative situation",
+        "role": "user",
+        "time": "2025-05-19T17:05:38.943Z"
+      },
+      {
+        "content": "That’s a wise focus; your approach can shape outcomes significantly. What strategies have worked well for you in the past?",
+        "role": "bot",
+        "time": "2025-05-19T17:05:44.234Z"
+      },
+      {
+        "content": "taking everything as it is with positivity",
+        "role": "user",
+        "time": "2025-05-19T17:06:29.978Z"
+      },
+      {
+        "content": "I love that mindset; positivity can make a big difference. How do you usually maintain that perspective during challenging times?",
+        "role": "bot",
+        "time": "2025-05-19T17:06:36.454Z"
+      }
+    ]
+  },
+  {
+    "id": "7c262d9b-d485-4bba-ba5c-3489ee6d7421",
+    "source": "API/Embed",
+    "sessionId": "7c262d9b-d485-4bba-ba5c-3489ee6d7421",
+    "memoryType": "Buffer Memory",
+    "email": null,
+    "messages": [
+      {
+        "content": "67d8c57426d3c8cb84cea60e",
+        "role": "user",
+        "time": "2025-05-19T16:35:24.672Z"
+      },
+      {
+        "content": "Thanks for sharing your Prolific ID! How can I support you today?",
+        "role": "bot",
+        "time": "2025-05-19T16:35:29.473Z"
+      },
+      {
+        "content": "I needed an advice",
+        "role": "user",
+        "time": "2025-05-19T16:35:51.000Z"
+      },
+      {
+        "content": "Of course! What’s on your mind that you’d like advice about?",
+        "role": "bot",
+        "time": "2025-05-19T16:35:55.702Z"
+      },
+      {
+        "content": "How can I maintain good mental health",
+        "role": "user",
+        "time": "2025-05-19T16:36:51.133Z"
+      },
+      {
+        "content": "Maintaining good mental health can be a journey. It sounds like you're looking for practical steps—what specific areas do you feel need attention?",
+        "role": "bot",
+        "time": "2025-05-19T16:36:56.503Z"
+      },
+      {
+        "content": "Probably the way I think  and respond to  issues",
+        "role": "user",
+        "time": "2025-05-19T16:37:38.959Z"
+      },
+      {
+        "content": "It sounds like you’re aware of your thought patterns. What specific thoughts or responses are you struggling with?",
+        "role": "bot",
+        "time": "2025-05-19T16:37:45.091Z"
+      },
+      {
+        "content": "Thinking of the past",
+        "role": "user",
+        "time": "2025-05-19T16:38:15.500Z"
+      },
+      {
+        "content": "I understand that dwelling on the past can be tough. What particular memories or feelings come up for you?",
+        "role": "bot",
+        "time": "2025-05-19T16:38:20.402Z"
+      },
+      {
+        "content": "Especially the negative thoughts.",
+        "role": "user",
+        "time": "2025-05-19T16:39:01.824Z"
+      },
+      {
+        "content": "It sounds like those negative thoughts weigh heavily on you. How do they typically affect your daily life?",
+        "role": "bot",
+        "time": "2025-05-19T16:39:06.309Z"
+      },
+      {
+        "content": "Can cause emotions sometimes",
+        "role": "user",
+        "time": "2025-05-19T16:39:38.987Z"
+      },
+      {
+        "content": "I see how those emotions can be overwhelming. What kinds of emotions do you usually experience when those thoughts arise?",
+        "role": "bot",
+        "time": "2025-05-19T16:39:44.415Z"
+      },
+      {
+        "content": "sympathetic",
+        "role": "user",
+        "time": "2025-05-19T16:40:11.673Z"
+      },
+      {
+        "content": "It seems like you feel a sense of compassion, perhaps for yourself or others. How do you think that sympathy influences your emotional state?",
+        "role": "bot",
+        "time": "2025-05-19T16:40:17.387Z"
+      },
+      {
+        "content": "feeling  disturbed",
+        "role": "user",
+        "time": "2025-05-19T16:41:06.786Z"
+      },
+      {
+        "content": "I understand that feeling disturbed can be unsettling. What do you think triggers that disturbance for you?",
+        "role": "bot",
+        "time": "2025-05-19T16:41:11.843Z"
+      },
+      {
+        "content": "Just those memories",
+        "role": "user",
+        "time": "2025-05-19T16:41:45.893Z"
+      },
+      {
+        "content": "It makes sense that those memories can be distressing. Have you found anything that helps you cope when they come up?",
+        "role": "bot",
+        "time": "2025-05-19T16:41:51.104Z"
+      },
+      {
+        "content": "Sometimes I focus on the positive part",
+        "role": "user",
+        "time": "2025-05-19T16:42:54.471Z"
+      },
+      {
+        "content": "That’s a great strategy! Focusing on the positive can shift your perspective. What positive aspects do you usually try to emphasize?",
+        "role": "bot",
+        "time": "2025-05-19T16:43:01.864Z"
+      },
+      {
+        "content": "The achievement I have made so far",
+        "role": "user",
+        "time": "2025-05-19T16:43:44.217Z"
+      },
+      {
+        "content": "That's wonderful! Celebrating your achievements can really boost your mood. How do you feel when you reflect on those accomplishments?",
+        "role": "bot",
+        "time": "2025-05-19T16:43:49.718Z"
+      },
+      {
+        "content": "Very positive and inspired",
+        "role": "user",
+        "time": "2025-05-19T16:44:20.565Z"
+      },
+      {
+        "content": "It’s great to hear that reflecting on your achievements inspires you! How can you incorporate that feeling into your daily routine?",
+        "role": "bot",
+        "time": "2025-05-19T16:44:26.154Z"
+      }
+    ]
+  }
+]

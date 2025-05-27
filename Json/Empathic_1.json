@@ -1,0 +1,478 @@
+[
+  {
+    "id": "e5bf278e-b680-4874-829c-4cbd84c73da7",
+    "source": "API/Embed",
+    "sessionId": "e5bf278e-b680-4874-829c-4cbd84c73da7",
+    "memoryType": "Buffer Memory",
+    "email": null,
+    "messages": [
+      {
+        "content": "617305abc8cde4cf0e08255b",
+        "role": "user",
+        "time": "2025-05-13T19:36:14.412Z"
+      },
+      {
+        "content": "Thanks for sharing your Prolific ID! How can I support you today?",
+        "role": "bot",
+        "time": "2025-05-13T19:36:19.055Z"
+      },
+      {
+        "content": "I've been at work for a while now and we're overloaded, and not being able to do all the work is leading me to a fairly high level of stress.",
+        "role": "user",
+        "time": "2025-05-13T19:36:59.458Z"
+      },
+      {
+        "content": "I understand that's difficult; feeling overwhelmed can be really challenging. What specific tasks are causing you the most stress?",
+        "role": "bot",
+        "time": "2025-05-13T19:37:04.483Z"
+      },
+      {
+        "content": "My job is very variable. I work with several teams and our workload depends on the requests they make. There are times when requests come from several teams at the same time and the response we give must be as fast as possible.",
+        "role": "user",
+        "time": "2025-05-13T19:38:09.660Z"
+      },
+      {
+        "content": "It sounds like you're feeling pressured by the unpredictability and urgency. How do you usually cope when the workload spikes?",
+        "role": "bot",
+        "time": "2025-05-13T19:38:14.861Z"
+      },
+      {
+        "content": "I usually give priority to getting the work teams up and running so that nothing is left standing and then process all the results.",
+        "role": "user",
+        "time": "2025-05-13T19:39:07.778Z"
+      },
+      {
+        "content": "That makes sense; you’re trying to keep things moving. Do you find this approach helps reduce your stress, or does it create more pressure?",
+        "role": "bot",
+        "time": "2025-05-13T19:39:13.478Z"
+      },
+      {
+        "content": "It usually helps, but sometimes the equipment fails and I need to work with them to resolve it, which makes me anxious because while I'm dealing with these problems I'm not dealing with the rest of the equipment.",
+        "role": "user",
+        "time": "2025-05-13T19:40:10.159Z"
+      },
+      {
+        "content": "I can see how that would create anxiety, feeling torn between tasks. What strategies have you tried to manage that anxiety when issues arise?",
+        "role": "bot",
+        "time": "2025-05-13T19:40:15.906Z"
+      },
+      {
+        "content": "I try to ask my colleagues for help to take care of the equipment that I cannot take care of while I try to solve the problems.",
+        "role": "user",
+        "time": "2025-05-13T19:41:05.988Z"
+      },
+      {
+        "content": "That's a great strategy, reaching out for support can really help. How do your colleagues typically respond when you ask for help?",
+        "role": "bot",
+        "time": "2025-05-13T19:41:11.285Z"
+      },
+      {
+        "content": "Normally good, we work well together, but sometimes they are also overworked and can't help me and I have to deal with everything.",
+        "role": "user",
+        "time": "2025-05-13T19:42:01.063Z"
+      },
+      {
+        "content": "That sounds frustrating; it’s tough when everyone’s stretched thin. How do you feel when you’re in that situation, having to manage everything alone?",
+        "role": "bot",
+        "time": "2025-05-13T19:42:07.211Z"
+      },
+      {
+        "content": "quite oversaturated and stressed, and without seeing that I am running out of time to be able to solve everything",
+        "role": "user",
+        "time": "2025-05-13T19:43:01.827Z"
+      },
+      {
+        "content": "I understand that's overwhelming, feeling like time is slipping away. Have you considered setting boundaries or prioritizing tasks differently during those high-pressure times?",
+        "role": "bot",
+        "time": "2025-05-13T19:43:07.824Z"
+      },
+      {
+        "content": "That's what I try to do, I prioritize what I think needs more attention, but sometimes users ask us to prioritize their own work due to company emergencies and for me that sometimes causes more stress, especially when it's work that takes a long time.",
+        "role": "user",
+        "time": "2025-05-13T19:44:17.910Z"
+      },
+      {
+        "content": "That sounds really challenging, especially with competing demands. How do you usually communicate your limits or concerns to users when those situations arise?",
+        "role": "bot",
+        "time": "2025-05-13T19:44:24.154Z"
+      },
+      {
+        "content": "I usually tell them that there is a lot of work and that I will do everything possible, but I also feel that pressure from them that only makes me more anxious.",
+        "role": "user",
+        "time": "2025-05-13T19:45:08.441Z"
+      },
+      {
+        "content": "It’s understandable to feel that pressure; it can be really tough to manage. Have you thought about ways to express your capacity limits while still validating their urgency?",
+        "role": "bot",
+        "time": "2025-05-13T19:45:14.792Z"
+      },
+      {
+        "content": "Yes, I already do it, and if it is very urgent, I end up wasting my free time to get the work done.",
+        "role": "user",
+        "time": "2025-05-13T19:45:46.202Z"
+      },
+      {
+        "content": "I see how that could lead to burnout, sacrificing your free time. How do you feel about setting clearer boundaries with your time to protect your well-being?",
+        "role": "bot",
+        "time": "2025-05-13T19:45:52.453Z"
+      }
+    ]
+  },
+  {
+    "id": "b6afb9cb-6b9c-4ac5-9abe-edda66402c2c",
+    "source": "API/Embed",
+    "sessionId": "b6afb9cb-6b9c-4ac5-9abe-edda66402c2c",
+    "memoryType": "Buffer Memory",
+    "email": null,
+    "messages": [
+      {
+        "content": "668dc78871d7ac60f95d1aa2",
+        "role": "user",
+        "time": "2025-05-13T19:18:44.738Z"
+      },
+      {
+        "content": "Thanks for sharing your Prolific ID! How can I support you today?",
+        "role": "bot",
+        "time": "2025-05-13T19:18:49.922Z"
+      },
+      {
+        "content": "I have small stress when  thinking about future important tests as an example",
+        "role": "user",
+        "time": "2025-05-13T19:19:31.026Z"
+      },
+      {
+        "content": "I understand that's difficult; future tests can feel overwhelming. What specific worries do you have about them?",
+        "role": "bot",
+        "time": "2025-05-13T19:19:35.946Z"
+      },
+      {
+        "content": "that I will not pass and have no future, although that might not be exactly the reason",
+        "role": "user",
+        "time": "2025-05-13T19:20:20.342Z"
+      },
+      {
+        "content": "It sounds like you're feeling a lot of pressure about your future. What do you think is underlying those fears?",
+        "role": "bot",
+        "time": "2025-05-13T19:20:25.336Z"
+      },
+      {
+        "content": "that I will be useless and not achive my goals",
+        "role": "user",
+        "time": "2025-05-13T19:20:54.870Z"
+      },
+      {
+        "content": "I hear you; those feelings of inadequacy can be really tough. What goals are weighing most heavily on your mind?",
+        "role": "bot",
+        "time": "2025-05-13T19:21:00.219Z"
+      },
+      {
+        "content": "academic ones",
+        "role": "user",
+        "time": "2025-05-13T19:21:14.602Z"
+      },
+      {
+        "content": "I understand that academic pressures can feel intense. What specific subjects or areas are causing you the most stress?",
+        "role": "bot",
+        "time": "2025-05-13T19:21:19.908Z"
+      },
+      {
+        "content": "being in the process to learn but not have enough time or thinking that i will not finish learning in time",
+        "role": "user",
+        "time": "2025-05-13T19:22:00.566Z"
+      },
+      {
+        "content": "It sounds like you're feeling rushed and worried about not mastering the material. What strategies have you considered to help manage your time?",
+        "role": "bot",
+        "time": "2025-05-13T19:22:06.157Z"
+      },
+      {
+        "content": "well it is hard for me to even do it for a prolonged amount of time so none",
+        "role": "user",
+        "time": "2025-05-13T19:22:38.023Z"
+      },
+      {
+        "content": "That’s understandable; maintaining focus can be challenging. Have you thought about breaking your study sessions into shorter, manageable chunks?",
+        "role": "bot",
+        "time": "2025-05-13T19:22:43.552Z"
+      },
+      {
+        "content": "well kind of, it is hard to keep focus after some time",
+        "role": "user",
+        "time": "2025-05-13T19:23:13.682Z"
+      },
+      {
+        "content": "I get that; losing focus can be frustrating. What have you found helpful in the past for staying engaged?",
+        "role": "bot",
+        "time": "2025-05-13T19:23:18.291Z"
+      },
+      {
+        "content": "being really interested in a subject, it is hard when there is other stuff that is more interesting though",
+        "role": "user",
+        "time": "2025-05-13T19:24:04.261Z"
+      },
+      {
+        "content": "It makes sense that distractions can pull you away. How do you think you could make the subjects more engaging for yourself?",
+        "role": "bot",
+        "time": "2025-05-13T19:24:09.700Z"
+      },
+      {
+        "content": "welp one of ideas was using chatgpt to make it not even more like a game but make it more engaging and make him make study papers better to read",
+        "role": "user",
+        "time": "2025-05-13T19:25:01.640Z"
+      },
+      {
+        "content": "That sounds like a creative approach! Engaging tools can really help. Have you tried any specific methods with it yet?",
+        "role": "bot",
+        "time": "2025-05-13T19:25:06.728Z"
+      },
+      {
+        "content": "well yeah, make more readable descriptions of the information inside, maybe with some explanations",
+        "role": "user",
+        "time": "2025-05-13T19:25:54.281Z"
+      },
+      {
+        "content": "That’s a great strategy! Simplifying complex info can really aid understanding. How has that impacted your learning so far?",
+        "role": "bot",
+        "time": "2025-05-13T19:25:59.963Z"
+      },
+      {
+        "content": "i just started so i did not test it enough but so far it is alright, not sure it works great will all subjects",
+        "role": "user",
+        "time": "2025-05-13T19:26:37.435Z"
+      },
+      {
+        "content": "It’s good that you’re experimenting! Different subjects can indeed require varied approaches. What subjects are you most curious about improving?",
+        "role": "bot",
+        "time": "2025-05-13T19:26:42.671Z"
+      },
+      {
+        "content": "well all that i am studing so far but in particular programming",
+        "role": "user",
+        "time": "2025-05-13T19:27:10.273Z"
+      },
+      {
+        "content": "Programming can be tricky but also rewarding! What aspects of programming do you find most challenging right now?",
+        "role": "bot",
+        "time": "2025-05-13T19:27:15.514Z"
+      },
+      {
+        "content": "to remember all the small stuff",
+        "role": "user",
+        "time": "2025-05-13T19:27:33.719Z"
+      },
+      {
+        "content": "That’s a common struggle in programming! Have you thought about using flashcards or notes to help reinforce those details?",
+        "role": "bot",
+        "time": "2025-05-13T19:27:38.997Z"
+      },
+      {
+        "content": "no, will try ",
+        "role": "user",
+        "time": "2025-05-13T19:27:51.411Z"
+      },
+      {
+        "content": "That sounds like a solid plan! It can really help with retention. How do you feel about trying that method?",
+        "role": "bot",
+        "time": "2025-05-13T19:27:56.248Z"
+      },
+      {
+        "content": "yeah will do",
+        "role": "user",
+        "time": "2025-05-13T19:28:02.486Z"
+      },
+      {
+        "content": "I'm glad to hear that! I hope it works well for you. Let me know how it goes!",
+        "role": "bot",
+        "time": "2025-05-13T19:28:07.451Z"
+      },
+      {
+        "content": "okay thank you",
+        "role": "user",
+        "time": "2025-05-13T19:28:15.418Z"
+      },
+      {
+        "content": "You're welcome! I'm here if you need more support.",
+        "role": "bot",
+        "time": "2025-05-13T19:28:20.323Z"
+      }
+    ]
+  },
+  {
+    "id": "bf6f95eb-23be-4a32-b1b1-6c5fe0397442",
+    "source": "API/Embed",
+    "sessionId": "bf6f95eb-23be-4a32-b1b1-6c5fe0397442",
+    "memoryType": "Buffer Memory",
+    "email": null,
+    "messages": [
+      {
+        "content": "5f35a7bf2d5fa01a8f08bbfb",
+        "role": "user",
+        "time": "2025-05-13T18:41:05.126Z"
+      },
+      {
+        "content": "Thanks for sharing your Prolific ID! How can I support you today?",
+        "role": "bot",
+        "time": "2025-05-13T18:41:09.480Z"
+      },
+      {
+        "content": "I have questions about stress and how can I mange it?",
+        "role": "user",
+        "time": "2025-05-13T18:41:34.367Z"
+      },
+      {
+        "content": "I understand that stress can be overwhelming. What specific situations are triggering your stress?",
+        "role": "bot",
+        "time": "2025-05-13T18:41:38.768Z"
+      },
+      {
+        "content": "family members who are drug users and dont work and take advantage of my family",
+        "role": "user",
+        "time": "2025-05-13T18:42:22.419Z"
+      },
+      {
+        "content": "It sounds like you're feeling frustrated and helpless about your family's situation. How does this impact your own well-being?",
+        "role": "bot",
+        "time": "2025-05-13T18:42:27.422Z"
+      },
+      {
+        "content": "it has been hard and I have been to the hospital for my stress ",
+        "role": "user",
+        "time": "2025-05-13T18:42:54.364Z"
+      },
+      {
+        "content": "I'm really sorry to hear that you've reached that point. That must have been a tough experience for you. What do you think contributes most to your stress in these family dynamics?",
+        "role": "bot",
+        "time": "2025-05-13T18:43:00.478Z"
+      },
+      {
+        "content": "the fact that we can not hold accountability to them and when we try to talk about it they attack with words and shouting",
+        "role": "user",
+        "time": "2025-05-13T18:43:51.952Z"
+      },
+      {
+        "content": "I understand that's difficult to navigate, especially when communication feels hostile. Have you found any strategies that help you cope during these confrontations?",
+        "role": "bot",
+        "time": "2025-05-13T18:43:57.674Z"
+      },
+      {
+        "content": "yes I pray to my higher power and I go outdoors for a few hours and listen to music ",
+        "role": "user",
+        "time": "2025-05-13T18:44:30.320Z"
+      },
+      {
+        "content": "Those sound like healthy coping mechanisms! It's great that you have those outlets. How do you feel after spending time outdoors and listening to music?",
+        "role": "bot",
+        "time": "2025-05-13T18:44:35.963Z"
+      },
+      {
+        "content": "nature has a way of helping me feel better and fresh air is soothing and I do not think as much",
+        "role": "user",
+        "time": "2025-05-13T18:45:26.886Z"
+      },
+      {
+        "content": "It sounds like nature offers you a valuable escape and relief from stress. What else do you enjoy doing that brings you peace?",
+        "role": "bot",
+        "time": "2025-05-13T18:45:32.251Z"
+      },
+      {
+        "content": "If I have the chance I go fishing and play some games ",
+        "role": "user",
+        "time": "2025-05-13T18:45:58.678Z"
+      },
+      {
+        "content": "Fishing and gaming both sound like wonderful ways to unwind and find joy. How do those activities help you connect with yourself?",
+        "role": "bot",
+        "time": "2025-05-13T18:46:04.183Z"
+      },
+      {
+        "content": "I have a good following in the gaming community and others value my friendship ",
+        "role": "user",
+        "time": "2025-05-13T18:46:48.533Z"
+      },
+      {
+        "content": "That’s really heartwarming to hear! Feeling valued in your community can be uplifting. How does that support impact your overall emotional well-being?",
+        "role": "bot",
+        "time": "2025-05-13T18:46:54.366Z"
+      },
+      {
+        "content": "it feels good and I feel a purpose and my new friends are like family to me",
+        "role": "user",
+        "time": "2025-05-13T18:47:37.373Z"
+      },
+      {
+        "content": "That sense of purpose and connection is so important! It sounds like your gaming friends really enrich your life. How do you nurture those friendships?",
+        "role": "bot",
+        "time": "2025-05-13T18:47:43.448Z"
+      },
+      {
+        "content": "I like to keep in touch with them and get together and game",
+        "role": "user",
+        "time": "2025-05-13T18:48:11.071Z"
+      },
+      {
+        "content": "It’s wonderful that you actively maintain those connections! Spending time together must strengthen those bonds. How do those gaming sessions make you feel?",
+        "role": "bot",
+        "time": "2025-05-13T18:48:17.380Z"
+      },
+      {
+        "content": "I feel really good and the challenges are a good way to get the team together ",
+        "role": "user",
+        "time": "2025-05-13T18:48:53.637Z"
+      },
+      {
+        "content": "It's great that challenges bring you all closer together! That sense of teamwork can be really rewarding. Do you find those experiences help you cope with stress in other areas of your life?",
+        "role": "bot",
+        "time": "2025-05-13T18:49:01.249Z"
+      },
+      {
+        "content": "Yes I know that I can go to my friends and have the support I need and talk about things",
+        "role": "user",
+        "time": "2025-05-13T18:49:44.259Z"
+      },
+      {
+        "content": "That support system sounds invaluable! Having friends to talk to can really lighten the emotional load. What topics do you usually discuss with them when you need support?",
+        "role": "bot",
+        "time": "2025-05-13T18:49:50.376Z"
+      },
+      {
+        "content": "mostly family stuff and chats about work ",
+        "role": "user",
+        "time": "2025-05-13T18:50:13.968Z"
+      },
+      {
+        "content": "It's good that you have a safe space to share those concerns. Talking about family and work can be so relieving. How do they typically respond to what you're going through?",
+        "role": "bot",
+        "time": "2025-05-13T18:50:20.590Z"
+      }
+    ]
+  },
+  {
+    "id": "ff6c0de4-75f9-4257-acfb-9ae823afc589",
+    "source": "API/Embed",
+    "sessionId": "ff6c0de4-75f9-4257-acfb-9ae823afc589",
+    "memoryType": "Buffer Memory",
+    "email": null,
+    "messages": [
+      {
+        "content": "test",
+        "role": "user",
+        "time": "2025-05-13T13:37:00.007Z"
+      },
+      {
+        "content": "I see you're testing things out. If you have any thoughts or feelings to share, I'm here to listen! Please remember to share your Prolific ID.",
+        "role": "bot",
+        "time": "2025-05-13T13:37:06.293Z"
+      },
+      {
+        "content": "this is a test by lyyn",
+        "role": "user",
+        "time": "2025-05-13T17:31:01.223Z"
+      },
+      {
+        "content": "Thanks for clarifying! If there's anything specific you'd like to discuss or explore, I’m here to help. Also, please share your Prolific ID when you can.",
+        "role": "bot",
+        "time": "2025-05-13T17:31:08.037Z"
+      }
+    ]
+  }
+]
