@@ -13,6 +13,9 @@
 ## Overview
 This web application was designed to conduct a psychology research study as part of Lynn Weisker's master thesis. The application facilitates interactions between participants and different types of therapeutic advice (empathetic vs. rational), collecting data through pre and post-interaction surveys.
 
+👉 [**Click here to check the experiment**](https://arad1367.github.io/therapist/)
+
+
 ## Features
 - Pre-interaction survey for participant background information
 - Randomized assignment to either empathetic or rational advice
